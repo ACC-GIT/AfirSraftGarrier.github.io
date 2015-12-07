@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[AfirSraftGarrier]]></title>
+  <subtitle><![CDATA[ACC]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2015-12-07T08:18:08.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[AfirSraftGarrier]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[第二篇测试]]></title>
+    <link href="http://yoursite.com/2015/12/07/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2015/12/07/第二篇测试/</id>
+    <published>2015-12-07T08:18:08.000Z</published>
+    <updated>2015-12-07T08:18:08.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[第一篇测试用的文章]]></title>
+    <link href="http://yoursite.com/2015/12/05/hello-world/"/>
+    <id>http://yoursite.com/2015/12/05/hello-world/</id>
+    <published>2015-12-05T10:37:43.000Z</published>
+    <updated>2015-12-07T07:28:34.000Z</updated>
+    <content type="html"><![CDATA[<p>欢迎来到 <a href="http://www.lianquna.com" target="_blank" rel="external">链去哪</a>! 这是第一篇测试文章。</p>
+<h2 id="快速开始">快速开始</h2><h3 id="创造个新文章">创造个新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">给个代码区...</span><br></pre></td></tr></table></figure>
+<p>更多消息请到: <a href="http://www.lianquna.com" target="_blank" rel="external">链去哪</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>欢迎来到 <a href="http://www.lianquna.com" target="_blank" rel="external">链去哪</a>! 这是第一篇测试文章。</p>
+<h2 id="快速开始">快速开始</h2><h3 id="创造个新文章">创造个新]]>
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="其他" scheme="http://yoursite.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+</feed>
