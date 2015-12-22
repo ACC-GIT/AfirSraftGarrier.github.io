@@ -4,7 +4,7 @@
   <subtitle><![CDATA[ACC]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-22T08:24:27.000Z</updated>
+  <updated>2015-12-22T09:21:07.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[如何更新Swiftype的搜索]]></title>
+    <link href="http://yoursite.com/2015/12/22/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%96%B0Swiftype%E7%9A%84%E6%90%9C%E7%B4%A2/"/>
+    <id>http://yoursite.com/2015/12/22/如何更新Swiftype的搜索/</id>
+    <published>2015-12-22T09:18:04.000Z</published>
+    <updated>2015-12-22T09:21:07.000Z</updated>
+    <content type="html"><![CDATA[<p>只要进入Swiftype管理界面的domain目录，进行recrawl就可以了，截图如下： </p>
+<p><img src="/images/swiftype-update.png" alt="Swiftype更新搜索"></p>
+<a id="more"></a>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>只要进入Swiftype管理界面的domain目录，进行recrawl就可以了，截图如下： </p>
+<p><img src="/images/swiftype-update.png" alt="Swiftype更新搜索"></p>]]>
+    
+    </summary>
+    
+      <category term="Swiftype" scheme="http://yoursite.com/tags/Swiftype/"/>
+    
+      <category term="Swiftype" scheme="http://yoursite.com/categories/Swiftype/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[虚拟机]]></title>
@@ -803,34 +825,6 @@
       <category term="通讯术语" scheme="http://yoursite.com/tags/%E9%80%9A%E8%AE%AF%E6%9C%AF%E8%AF%AD/"/>
     
       <category term="通讯" scheme="http://yoursite.com/categories/%E9%80%9A%E8%AE%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[关于Hexo的几个知识整理]]></title>
-    <link href="http://yoursite.com/2015/12/07/%E5%85%B3%E4%BA%8EHexo%E7%9A%84%E5%87%A0%E4%B8%AA%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
-    <id>http://yoursite.com/2015/12/07/关于Hexo的几个知识整理/</id>
-    <published>2015-12-07T13:58:14.000Z</published>
-    <updated>2015-12-08T05:51:00.000Z</updated>
-    <content type="html"><![CDATA[<p>以下是玩Hexo遇到的几个问题和解决方法整理。 </p>
-<a id="more"></a>
-<h3 id="文章如何设置多个标签（category同理）?">文章如何设置多个标签（category同理）?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">比如标签有A和B，可以在文章的md文件顶部这样设置 tags: [A, B]</span><br></pre></td></tr></table></figure>
-<h3 id="hexo_d和hexo_deploy相同吗（其他如hexo_n等同理）?">hexo d和hexo deploy相同吗（其他如hexo n等同理）?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d是hexo deploy的简写，相同。</span><br></pre></td></tr></table></figure>
-<h3 id="每次hexo_d前都要hexo_g好麻烦，有简便方法吗?">每次hexo d前都要hexo g好麻烦，有简便方法吗?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">可以合并shell语句成hexo g <span class="operator">-d</span>。</span><br></pre></td></tr></table></figure>
-<h3 id="Hexo有个阅读更多的简介是怎么出来的?">Hexo有个阅读更多的简介是怎么出来的?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在你想要留作简介的段落下面添加一行&lt;!--more--&gt;就可以。</span><br></pre></td></tr></table></figure>
-<h3 id="Hexo每篇文章如何添加阅读次数?">Hexo每篇文章如何添加阅读次数?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">用[不蒜子]或者[LeanCloud]都可以，具体方法请查找。</span><br></pre></td></tr></table></figure>
-<h3 id="命令hexo_d提交到Github的时候都要进行输入用户名密码，有简便方法吗?">命令hexo d提交到Github的时候都要进行输入用户名密码，有简便方法吗?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">执行git config --global credential.helper store</span><br><span class="line">或者修改GIT相关的配置为https://[userName]:[password]@github.com/[username]/project.git</span><br></pre></td></tr></table></figure>
-<h3 id="命令hexo_g会把Hexo_source不相关文件清除，README-md和LICENSE文件怎么办?">命令hexo g会把Hexo source不相关文件清除，README.md和LICENSE文件怎么办?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">对于LICENSE等文件，可以放在Hexo博客的根目录的<span class="built_in">source</span>文件夹中</span><br><span class="line">对于README.md等md文件，想保持就在根目录的_config.yml中配置如skip_render: README.md。</span><br></pre></td></tr></table></figure>]]></content>
-    <summary type="html">
-    <![CDATA[<p>以下是玩Hexo遇到的几个问题和解决方法整理。 </p>]]>
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
-      <category term="知识" scheme="http://yoursite.com/tags/%E7%9F%A5%E8%AF%86/"/>
-    
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
     
   </entry>
   
