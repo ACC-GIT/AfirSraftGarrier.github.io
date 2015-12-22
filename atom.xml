@@ -4,7 +4,7 @@
   <subtitle><![CDATA[ACC]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-08T05:51:00.000Z</updated>
+  <updated>2015-12-22T08:24:27.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,798 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[虚拟机]]></title>
+    <link href="http://yoursite.com/2015/12/22/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <id>http://yoursite.com/2015/12/22/虚拟机/</id>
+    <published>2015-12-22T08:24:27.000Z</published>
+    <updated>2015-12-22T08:24:27.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[计算机]]></title>
+    <link href="http://yoursite.com/2015/12/22/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    <id>http://yoursite.com/2015/12/22/计算机/</id>
+    <published>2015-12-22T03:04:35.000Z</published>
+    <updated>2015-12-22T03:15:14.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[SOCKET]]></title>
+    <link href="http://yoursite.com/2015/12/22/SOCKET/"/>
+    <id>http://yoursite.com/2015/12/22/SOCKET/</id>
+    <published>2015-12-22T03:03:53.000Z</published>
+    <updated>2015-12-22T03:05:27.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[移动通信技术发展简述]]></title>
+    <link href="http://yoursite.com/2015/12/21/%E7%A7%BB%E5%8A%A8%E9%80%9A%E4%BF%A1%E6%8A%80%E6%9C%AF%E5%8F%91%E5%B1%95%E7%AE%80%E8%BF%B0/"/>
+    <id>http://yoursite.com/2015/12/21/移动通信技术发展简述/</id>
+    <published>2015-12-21T12:51:56.000Z</published>
+    <updated>2015-12-21T13:48:51.000Z</updated>
+    <content type="html"><![CDATA[<p>以下是关于移动通信的一些整理： </p>
+<a id="more"></a>
+<h3 id="1G（第一代移动通信技术，G为Generation缩写）">1G（第一代移动通信技术，G为Generation缩写）</h3><blockquote>
+<ul>
+<li>主要采用的是模拟技术和频分多址(FDMA)技术。</li>
+<li>只有语音通话。</li>
+<li>代表如大哥大。</li>
+</ul>
+</blockquote>
+<h3 id="2G">2G</h3><blockquote>
+<ul>
+<li>用数字信号传输。</li>
+<li>用GSM、CDMA两类模块技术。</li>
+<li>可以发短信。</li>
+</ul>
+</blockquote>
+<h3 id="2-5G">2.5G</h3><blockquote>
+<ul>
+<li>用GPRS、EDEG、CDMA、WAP、蓝牙、EPOC、HSCSD等技术。</li>
+<li>这时候手机可以进行上网了，也可以用蓝牙。</li>
+</ul>
+</blockquote>
+<h3 id="3G">3G</h3><blockquote>
+<ul>
+<li>用到技术CDMA2000、WCDMA、TD-SCDMA。</li>
+<li>是指将无线通信与国际互联网等多媒体通信结合的新一代移动通信系统。</li>
+<li>能够处理图像、音乐、视频流等多种媒体形式。</li>
+</ul>
+</blockquote>
+<h3 id="4G">4G</h3><blockquote>
+<ul>
+<li>集3G与WLAN于一体。</li>
+<li>用到TD-LTE和FDD-LTE两种制式。</li>
+<li>能够以100Mbps以上的速度下载，这样终端</li>
+</ul>
+</blockquote>
+<h4 id="附上一个速度比较图：">附上一个速度比较图：</h4><p><img src="/images/2957481_20120920141455.png" alt="速度比较图"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>以下是关于移动通信的一些整理： </p>]]>
+    
+    </summary>
+    
+      <category term="移动通信" scheme="http://yoursite.com/tags/%E7%A7%BB%E5%8A%A8%E9%80%9A%E4%BF%A1/"/>
+    
+      <category term="移动通信" scheme="http://yoursite.com/categories/%E7%A7%BB%E5%8A%A8%E9%80%9A%E4%BF%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[什么叫带宽]]></title>
+    <link href="http://yoursite.com/2015/12/21/%E4%BB%80%E4%B9%88%E5%8F%AB%E5%B8%A6%E5%AE%BD/"/>
+    <id>http://yoursite.com/2015/12/21/什么叫带宽/</id>
+    <published>2015-12-21T01:49:53.000Z</published>
+    <updated>2015-12-21T02:15:14.000Z</updated>
+    <content type="html"><![CDATA[<p>常说带宽，它是什么呢？ </p>
+<a id="more"></a>
+<h3 id="带宽，是用来标识信号传输的数据传输能力即标识单位时间内通过链路的数据量。">带宽，是用来标识信号传输的数据传输能力即标识单位时间内通过链路的数据量。</h3><blockquote>
+<ul>
+<li>在数字传输中，带宽通常用bps(bits per second)表示。(注意 1 Byte = 8 bit)</li>
+<li>在模拟传输中，带宽又叫频宽，通常以赫兹(Hz)表示。</li>
+</ul>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>常说带宽，它是什么呢？ </p>]]>
+    
+    </summary>
+    
+      <category term="带宽" scheme="http://yoursite.com/tags/%E5%B8%A6%E5%AE%BD/"/>
+    
+      <category term="计算机" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[音的几个要素]]></title>
+    <link href="http://yoursite.com/2015/12/20/%E9%9F%B3%E7%9A%84%E5%87%A0%E4%B8%AA%E8%A6%81%E7%B4%A0/"/>
+    <id>http://yoursite.com/2015/12/20/音的几个要素/</id>
+    <published>2015-12-20T04:03:57.000Z</published>
+    <updated>2015-12-20T04:20:41.000Z</updated>
+    <content type="html"><![CDATA[<p>以下是关于音乐的几个要素的一些整理： </p>
+<a id="more"></a>
+<h3 id="音调">音调</h3><p>由声波频率决定</p>
+<h3 id="音强">音强</h3><p>由声波振幅决定</p>
+<h3 id="音色">音色</h3><p>由混入基音的泛音决定（泛音是属于基音声波的谐波，是指能用常数还有与基音声波正弦函数的最小正周期相同的正弦函数和余弦函数的线性组合表达的部分）</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>以下是关于音乐的几个要素的一些整理： </p>]]>
+    
+    </summary>
+    
+      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+      <category term="音乐" scheme="http://yoursite.com/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[模拟和数字]]></title>
+    <link href="http://yoursite.com/2015/12/20/%E6%A8%A1%E6%8B%9F%E5%92%8C%E6%95%B0%E5%AD%97/"/>
+    <id>http://yoursite.com/2015/12/20/模拟和数字/</id>
+    <published>2015-12-20T03:58:08.000Z</published>
+    <updated>2015-12-20T04:40:46.000Z</updated>
+    <content type="html"><![CDATA[<p>以下是关于模拟和数字的一些整理： </p>
+<a id="more"></a>
+<h3 id="模拟(Analog)和数字(Digital)的区别">模拟(Analog)和数字(Digital)的区别</h3><blockquote>
+<ul>
+<li>模拟是指自变量（时间）和因变量（取值）是连续的，然而数字是这两者都是离散的。</li>
+<li>模拟信号和数字信号可以通过AD转换和DA转换进行转换。</li>
+<li>模拟数据一般采用模拟信号，如一系列连续变化的电磁波（无线电视）或者电压（有线电话）来传输。<br>  数字数据采用数字信号，如电脉冲和光脉冲表示。</li>
+<li>传输介质不同，模拟信号用的电磁波时，电磁波本身是信号载体，也是介质。<br>  模拟信号采用电压时，要通过传统的模拟信号传输线路（有线电话网，有线电视网）来传输。<br>  数字信号则需要用到双绞线、电缆或光纤介质将通信双方连接起来。</li>
+<li>模拟信号优点是容易实现，缺点是容易被窃听，还有就是容易被干扰，数字信号反之。</li>
+</ul>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>以下是关于模拟和数字的一些整理： </p>]]>
+    
+    </summary>
+    
+      <category term="概念" scheme="http://yoursite.com/tags/%E6%A6%82%E5%BF%B5/"/>
+    
+      <category term="概念" scheme="http://yoursite.com/categories/%E6%A6%82%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[关于吉他和弦]]></title>
+    <link href="http://yoursite.com/2015/12/20/%E5%85%B3%E4%BA%8E%E5%90%89%E4%BB%96%E5%92%8C%E5%BC%A6/"/>
+    <id>http://yoursite.com/2015/12/20/关于吉他和弦/</id>
+    <published>2015-12-20T03:26:23.000Z</published>
+    <updated>2015-12-20T03:30:34.000Z</updated>
+    <content type="html"><![CDATA[<p>以下是关于吉他和弦的一些整理： </p>
+<a id="more"></a>
+<h3 id="吉他和弦详细图解"><a href="http://www.17jita.com/hexian/" target="_blank" rel="external">吉他和弦详细图解</a></h3><h3 id="吉他各调式音的位置图解"><a href="http://www.17jita.com/blog/5959.html" target="_blank" rel="external">吉他各调式音的位置图解</a></h3>]]></content>
+    <summary type="html">
+    <![CDATA[<p>以下是关于吉他和弦的一些整理： </p>]]>
+    
+    </summary>
+    
+      <category term="吉他" scheme="http://yoursite.com/tags/%E5%90%89%E4%BB%96/"/>
+    
+      <category term="吉他" scheme="http://yoursite.com/categories/%E5%90%89%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[VFS]]></title>
+    <link href="http://yoursite.com/2015/12/15/VFS/"/>
+    <id>http://yoursite.com/2015/12/15/VFS/</id>
+    <published>2015-12-14T22:08:13.000Z</published>
+    <updated>2015-12-14T22:23:11.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="VFS是什么">VFS是什么</h3><p>VFS（virtual File System），中文意思就是虚拟文件系统<br>虚拟文件系统（VFS）是物理文件系统与服务之间的一个接口层，它对Linux的每个文件系统的所有细节进行抽象</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="VFS是什么">VFS是什么</h3><p>VFS（virtual File System），中文意思就是虚拟文件系统<br>虚拟文件系统（VFS）是物理文件系统与服务之间的一个接口层，它对Linux的每个文件系统的所有细节进行抽象</p>
+]]>
+    </summary>
+    
+      <category term="VFS" scheme="http://yoursite.com/tags/VFS/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[AS(Android studio)的几个快捷键]]></title>
+    <link href="http://yoursite.com/2015/12/15/AS-Android-studio-%E7%9A%84%E5%87%A0%E4%B8%AA%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://yoursite.com/2015/12/15/AS-Android-studio-的几个快捷键/</id>
+    <published>2015-12-14T21:28:21.000Z</published>
+    <updated>2015-12-14T21:35:48.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="Ctrl_+_Q：">Ctrl + Q：</h3><blockquote>
+<ul>
+<li>光标移动到某个类，然后按此快捷方式能看到类的注释说明。</li>
+</ul>
+</blockquote>
+<h3 id="Ctrl_+_Alt_+_鼠标左键">Ctrl + Alt + 鼠标左键</h3><a id="more"></a>
+<blockquote>
+<ul>
+<li>光标移动到某个类，然后按此快捷方式能看到所有该类的实现（接口）或继承（类）。</li>
+</ul>
+</blockquote>
+<h3 id="Ctrl_+_Alt_+_方向键">Ctrl + Alt + 方向键</h3><blockquote>
+<ul>
+<li>可以往前或往后查看前一个或后一个编辑点。</li>
+</ul>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="Ctrl_+_Q：">Ctrl + Q：</h3><blockquote>
+<ul>
+<li>光标移动到某个类，然后按此快捷方式能看到类的注释说明。</li>
+</ul>
+</blockquote>
+<h3 id="Ctrl_+_Alt_+_鼠标左键">Ctrl + Alt + 鼠标左键</h3>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="快捷键" scheme="http://yoursite.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[如何在线查看Android源码]]></title>
+    <link href="http://yoursite.com/2015/12/15/%E5%A6%82%E4%BD%95%E5%9C%A8%E7%BA%BF%E6%9F%A5%E7%9C%8BAndroid%E6%BA%90%E7%A0%81/"/>
+    <id>http://yoursite.com/2015/12/15/如何在线查看Android源码/</id>
+    <published>2015-12-14T21:02:27.000Z</published>
+    <updated>2015-12-14T21:17:13.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="方法：">方法：</h3><a id="more"></a>
+<p><a href="http://androidxref.com/2.2.3/xref/frameworks/base/core/java/android/os/Handler.java#297" target="_blank" rel="external">http://androidxref.com/2.2.3/xref/frameworks/base/core/java/android/os/Handler.java#297</a></p>
+<blockquote>
+<ul>
+<li>注意后面可以带上行号定位…</li>
+</ul>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="方法：">方法：</h3>]]>
+    
+    </summary>
+    
+      <category term="源码" scheme="http://yoursite.com/tags/%E6%BA%90%E7%A0%81/"/>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[坑爹虚拟机网络配置的一些经验]]></title>
+    <link href="http://yoursite.com/2015/12/14/%E5%9D%91%E7%88%B9%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/"/>
+    <id>http://yoursite.com/2015/12/14/坑爹虚拟机网络配置的一些经验/</id>
+    <published>2015-12-14T08:25:43.000Z</published>
+    <updated>2015-12-14T12:08:44.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="前言：">前言：</h3><pre><code>虚拟机的网络配置很坑爹，各种组合，搞得头晕，有时候会出现主机和虚拟机一方<span class="built_in">ping</span>不通令一方。
+</code></pre><a id="more"></a>
+<h3 id="一些经验：">一些经验：</h3><blockquote>
+<ul>
+<li>因为<code>NAT</code>连接方式简单，大多数都用NAT方式。</li>
+<li><code>NAT</code>方式有时候主机ping不通虚拟机，这时候要注意要使虚拟机的网段和主机网段一样。</li>
+<li>坑爹请注意：<code>NAT</code>模式对应<strong>VMnet8</strong>虚拟网络，<code>host-only</code>模式对应<strong>VMnet1</strong>虚拟网络，<code>Bridged</code>模式对应<strong>VMnet0</strong>虚拟网络。</li>
+<li>坑爹请注意：Virtual Network Editor里面一定要进行<code>NAT</code>和<code>Bridged</code>两种类型网络设置。</li>
+</ul>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="前言：">前言：</h3><pre><code>虚拟机的网络配置很坑爹，各种组合，搞得头晕，有时候会出现主机和虚拟机一方<span class="built_in">ping</span>不通令一方。
+</code></pre>]]>
+    
+    </summary>
+    
+      <category term="虚拟机" scheme="http://yoursite.com/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+      <category term="虚拟机" scheme="http://yoursite.com/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[用iframe嵌入个人信息界面练习]]></title>
+    <link href="http://yoursite.com/2015/12/14/%E7%94%A8iframe%E5%B5%8C%E5%85%A5%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E7%95%8C%E9%9D%A2%E7%BB%83%E4%B9%A0/"/>
+    <id>http://yoursite.com/2015/12/14/用iframe嵌入个人信息界面练习/</id>
+    <published>2015-12-14T07:13:10.000Z</published>
+    <updated>2015-12-14T08:10:23.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="前言：">前言：</h3><pre><code>下面是一些用iframe嵌入个人信息界面的练习：
+</code></pre><a id="more"></a>
+<h4 id="我的StackOverflow_（这个只是图片嵌入）：">我的StackOverflow （这个只是图片嵌入）：</h4><p><a href="http://stackoverflow.com/users/5230013/afirsraftgarrier" target="_blank" rel="external"><img src="http://stackoverflow.com/users/flair/5230013.png?theme=clean" alt="alt 我的StackOverflow"></a></p>
+<h4 id="我的Github：">我的Github：</h4><iframe border="0" frameborder="0" width="500" marginheight="0" marginwidth="0" scrolling="no" src="https://phphub.org/github-card?user=AfirSraftGarrier"><br></iframe>
+
+
+<h4 id="我的Music：">我的Music：</h4><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="http://music.163.com/outchain/player?type=0&id=135482478&auto=1&height=430"><br></iframe>]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="前言：">前言：</h3><pre><code>下面是一些用iframe嵌入个人信息界面的练习：
+</code></pre>]]>
+    
+    </summary>
+    
+      <category term="iframe" scheme="http://yoursite.com/tags/iframe/"/>
+    
+      <category term="HTML" scheme="http://yoursite.com/categories/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[溜冰个人经验总结]]></title>
+    <link href="http://yoursite.com/2015/12/13/%E6%BA%9C%E5%86%B0%E4%B8%AA%E4%BA%BA%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2015/12/13/溜冰个人经验总结/</id>
+    <published>2015-12-13T14:22:34.000Z</published>
+    <updated>2015-12-14T03:32:25.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="以下是个人溜冰的一些经验总结：">以下是个人溜冰的一些经验总结：</h3><blockquote>
+<ul>
+<li>溜冰要循序渐进，不可操之过急。</li>
+<li>要敢于尝试，大胆些。</li>
+<li>不怕摔倒，很多很厉害的人也会摔倒。</li>
+<li>不管正溜，倒溜，最重要的是平衡。</li>
+<li>不要只一味的溜，可以看看别人怎么溜。</li>
+<li>刹车很重要，要多练习。</li>
+</ul>
+</blockquote>
+<a id="more"></a>
+<h3 id="总结">总结</h3><pre><code>通过溜冰可以看到一些道理：做任何事情，都要循序渐进，要勇于尝试，不怕丢脸，多观察、多思考、多总结。
+还有一点，就是要有能力控制风险，这样一来可以让自己更大胆，二来可以在危险的时候避免损失太多。
+</code></pre>]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="以下是个人溜冰的一些经验总结：">以下是个人溜冰的一些经验总结：</h3><blockquote>
+<ul>
+<li>溜冰要循序渐进，不可操之过急。</li>
+<li>要敢于尝试，大胆些。</li>
+<li>不怕摔倒，很多很厉害的人也会摔倒。</li>
+<li>不管正溜，倒溜，最重要的是平衡。</li>
+<li>不要只一味的溜，可以看看别人怎么溜。</li>
+<li>刹车很重要，要多练习。</li>
+</ul>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="溜冰" scheme="http://yoursite.com/tags/%E6%BA%9C%E5%86%B0/"/>
+    
+      <category term="溜冰" scheme="http://yoursite.com/categories/%E6%BA%9C%E5%86%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[肾结石注意事项]]></title>
+    <link href="http://yoursite.com/2015/12/12/%E8%82%BE%E7%BB%93%E7%9F%B3%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+    <id>http://yoursite.com/2015/12/12/肾结石注意事项/</id>
+    <published>2015-12-12T13:24:53.000Z</published>
+    <updated>2015-12-12T14:55:16.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="前言：">前言：</h3><pre><code>经常坐电脑前面的人，特别是做IT的，如果不常喝水，容易得肾结石。
+</code></pre><a id="more"></a>
+<h3 id="肾结石就医注意">肾结石就医注意</h3><blockquote>
+<ul>
+<li>尽量叫上朋友，因为要挂号、取药之类的事情，经常走动会加剧疼痛。</li>
+<li>不管多痛，记得带钱，不然付不了钱很麻烦，当然还有手机。</li>
+<li>当尿痛时，有可能是肾绞痛引起的，要预判，紧急就医。</li>
+<li>要打的或用工具找的士，要选择就近就医，避免过多走动加剧疼痛。</li>
+<li>如果当时已经很疼，可以给医生提议打一枚止痛针再进行葡萄糖输液，不要硬撑。</li>
+<li>输液时要平躺，尽量不要动，盖好被子。</li>
+<li>吊完针后如果没有疼痛要大量喝温的清水，如果此时能顺利排尿就差不多了。</li>
+</ul>
+</blockquote>
+<h3 id="肾结石平时注意">肾结石平时注意</h3><blockquote>
+<ul>
+<li>如果石头直径不超过5mm，不建议进行碎石，可以多喝水，多运动，选择一些药帮助排出。</li>
+<li>肾结石有时候和体位有关系，有可能用一个体位，结石就不会堵住输尿管。</li>
+<li>晚上睡觉一定不要让腰部受凉，这样可能引起输尿管收缩然后和结石作用而形成痉挛。</li>
+<li>健康有三通，尿通、便通、血通，尿不通对人影响很大，所以要多喝水多排尿，杜绝憋尿。</li>
+<li>多喝水，这是最重要的，喝水有助于稀释尿液，这就不用说了。</li>
+</ul>
+</blockquote>
+<h3 id="肾结石饮食注意">肾结石饮食注意</h3><blockquote>
+<ul>
+<li>因为肾结石大多为草酸钙构成，所以尽量少吃含草酸钙的食物。<br>  草酸钙多的食物比如：红薯，菠菜，啤酒，大多数茶，巧克力饮料，橘子…</li>
+<li>多吃含维生素A的食物，有助于尿道内膜健康，阻碍结石复发。<br>  含维生素A的食物比如：苹果，香蕉，梨，西瓜，大白菜，番茄，南瓜，黄瓜，绿豆…</li>
+<li>多吃含钙的食物，因为钙可以和草酸钙结合，这样就不容易形成结石。<br>  含钙多的食物比如：牛奶，海带，豆腐，骨头汤，鸡蛋，酸奶…</li>
+<li>吃东西要温的为主，喝的水要纯净的。<br>  避免一次只喝一小口止渴的情况，要喝就喝多点，这样身体才能更好吸收。</li>
+<li>控制肉类摄取，减少动物性蛋白摄取可减少结石形成机会。</li>
+</ul>
+</blockquote>
+<h4 id="最后提醒一句：多喝水、多喝水、多喝水，重要的事说三遍…">最后提醒一句：多喝水、多喝水、多喝水，重要的事说三遍…</h4>]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="前言：">前言：</h3><pre><code>经常坐电脑前面的人，特别是做IT的，如果不常喝水，容易得肾结石。
+</code></pre>]]>
+    
+    </summary>
+    
+      <category term="肾结石" scheme="http://yoursite.com/tags/%E8%82%BE%E7%BB%93%E7%9F%B3/"/>
+    
+      <category term="肾结石" scheme="http://yoursite.com/categories/%E8%82%BE%E7%BB%93%E7%9F%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[VPN]]></title>
+    <link href="http://yoursite.com/2015/12/11/VPN/"/>
+    <id>http://yoursite.com/2015/12/11/VPN/</id>
+    <published>2015-12-11T11:16:00.000Z</published>
+    <updated>2015-12-11T15:19:55.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="VPN_(Virtual_Private_Network)_，字面意思就是虚拟的私人网络。">VPN (Virtual Private Network) ，字面意思就是虚拟的私人网络。</h3><blockquote>
+<ul>
+<li>连接上VPN后，简单说就相当于进了个局域网。</li>
+<li>访问网络时，有些不需要VPN网管处理的直接转发到上级路由。</li>
+</ul>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="VPN_(Virtual_Private_Network)_，字面意思就是虚拟的私人网络。">VPN (Virtual Private Network) ，字面意思就是虚拟的私人网络。</h3><blockquote>
+<ul>
+<li>连接上VPN后，简单说就相]]>
+    </summary>
+    
+      <category term="VPN" scheme="http://yoursite.com/tags/VPN/"/>
+    
+      <category term="VPN" scheme="http://yoursite.com/categories/VPN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[通过逐步改善一个问题表来理解数据库设计三范式]]></title>
+    <link href="http://yoursite.com/2015/12/09/%E9%80%9A%E8%BF%87%E9%80%90%E6%AD%A5%E6%94%B9%E5%96%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98%E8%A1%A8%E6%9D%A5%E7%90%86%E8%A7%A3%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E4%B8%89%E8%8C%83%E5%BC%8F/"/>
+    <id>http://yoursite.com/2015/12/09/通过逐步改善一个问题表来理解数据库设计三范式/</id>
+    <published>2015-12-09T13:58:14.000Z</published>
+    <updated>2015-12-22T08:56:15.000Z</updated>
+    <content type="html"><![CDATA[<p>很多人喜欢用简短深奥的语言描述数据库三范式，也喜欢用分离的方法来理解三范式，本文就用简单语言、用一个例子连贯起来理解它。</p>
+<h3 id="准备">准备</h3><p>这里有个任务，要记录每次客户拜访的相关信息：</p>
+<blockquote>
+<p> 客户拜访信息表：</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">编号</th>
+<th style="text-align:center">时间</th>
+<th style="text-align:center">地点</th>
+<th style="text-align:center">名字</th>
+<th style="text-align:center">性别和年龄</th>
+<th style="text-align:center">地点所属区</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">001</td>
+<td style="text-align:center">2015-12-10</td>
+<td style="text-align:center">东圃</td>
+<td style="text-align:center">小红</td>
+<td style="text-align:center">男,50岁</td>
+<td style="text-align:center">天河区</td>
+</tr>
+<tr>
+<td style="text-align:left">002</td>
+<td style="text-align:center">2015-12-13</td>
+<td style="text-align:center">市桥</td>
+<td style="text-align:center">小蓝</td>
+<td style="text-align:center">女,40岁</td>
+<td style="text-align:center">番禺区</td>
+</tr>
+</tbody>
+</table>
+<p>当然这个是个有问题的表，下面我们通过三范式一步步优化这个设计。</p>
+<a id="more"></a>
+<h3 id="第一范式出场">第一范式出场</h3><blockquote>
+<ul>
+<li>要求：列是原子的，即属性是原子的，并且该属性的对应的值只能有一个。</li>
+<li>分析：很明显上表不符合，因为<code>性别和年龄</code>这个属性可以分成<code>性别</code>、<code>年龄</code>两个属性。</li>
+<li>解决：将<code>性别和年龄</code>属性分成<code>性别</code>、<code>年龄</code>两个属性。</li>
+</ul>
+</blockquote>
+<p>通过上面分析优化后得到结果如下：</p>
+<blockquote>
+<p> 客户拜访信息表：</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">编号</th>
+<th style="text-align:center">时间</th>
+<th style="text-align:center">地点</th>
+<th style="text-align:center">名字</th>
+<th style="text-align:center">性别</th>
+<th style="text-align:center">年龄</th>
+<th style="text-align:center">地点所属区</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">001</td>
+<td style="text-align:center">2015-12-10</td>
+<td style="text-align:center">东圃</td>
+<td style="text-align:center">小红</td>
+<td style="text-align:center">男</td>
+<td style="text-align:center">50岁</td>
+<td style="text-align:center">天河区</td>
+</tr>
+<tr>
+<td style="text-align:left">002</td>
+<td style="text-align:center">2015-12-13</td>
+<td style="text-align:center">市桥</td>
+<td style="text-align:center">小蓝</td>
+<td style="text-align:center">女</td>
+<td style="text-align:center">40岁</td>
+<td style="text-align:center">番禺区</td>
+</tr>
+</tbody>
+</table>
+<h3 id="第二范式出场">第二范式出场</h3><blockquote>
+<ul>
+<li>要求：<ul>
+<li>满足第一范式。</li>
+<li>每一个非主键，对可能的主键完全依赖。</li>
+</ul>
+</li>
+<li>分析：第二点要求什么意思呢，也就是说，假设有两个属性可以作为表联合主键，那么其他属性都要完全依赖他们两个，而不是只依赖其中的一个。那么看上面的客户拜访信息表，可以发现<code>编号</code>可以作为主键，这个没问题，但同时 [<code>时间</code>，<code>地点</code>] 也可以作为表的联合主键，发现<code>地点所属区</code>这个属性其实只依赖<code>地点</code>这个属性而没有依赖<code>时间</code>属性。</li>
+<li>解决：可以分分离出区域信息表，这样就不会出现上面分析中的问题。</li>
+</ul>
+</blockquote>
+<p>通过上面分析优化后得到结果如下：</p>
+<blockquote>
+<p> 客户拜访信息表：</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">编号</th>
+<th style="text-align:center">时间</th>
+<th style="text-align:center">地点</th>
+<th style="text-align:center">名字</th>
+<th style="text-align:center">性别</th>
+<th style="text-align:center">年龄</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">001</td>
+<td style="text-align:center">2015-12-10</td>
+<td style="text-align:center">东圃</td>
+<td style="text-align:center">小红</td>
+<td style="text-align:center">男</td>
+<td style="text-align:center">50岁</td>
+</tr>
+<tr>
+<td style="text-align:left">002</td>
+<td style="text-align:center">2015-12-13</td>
+<td style="text-align:center">市桥</td>
+<td style="text-align:center">小蓝</td>
+<td style="text-align:center">女</td>
+<td style="text-align:center">40岁</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p> 区域信息表：</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">地点</th>
+<th style="text-align:center">地点所属区</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">东圃</td>
+<td style="text-align:center">天河区</td>
+</tr>
+<tr>
+<td style="text-align:left">市桥</td>
+<td style="text-align:center">番禺区</td>
+</tr>
+</tbody>
+</table>
+<h3 id="第三范式出场">第三范式出场</h3><blockquote>
+<ul>
+<li>要求：<ul>
+<li>满足第二范式。</li>
+<li>对于一个可能的主键，其他属性只依赖它而不依赖其他非主键属性。</li>
+</ul>
+</li>
+<li>分析：可以看到上面的客户拜访信息表是不符合第三范式的，因为对于主键<code>编号</code>或者联合主键 [<code>时间</code>，<code>地点</code>] ,<code>性别</code>和<code>年龄</code>显然也可以依赖于<code>名字</code>。</li>
+<li>解决：可以进一步分离出客户信息表，这样就不会出现上面分析中的问题。</li>
+</ul>
+</blockquote>
+<p>通过上面分析优化后得到结果如下：</p>
+<blockquote>
+<p> 拜访信息表：</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">编号</th>
+<th style="text-align:center">时间</th>
+<th style="text-align:center">地点</th>
+<th style="text-align:center">名字</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">001</td>
+<td style="text-align:center">2015-12-10</td>
+<td style="text-align:center">东圃</td>
+<td style="text-align:center">小红</td>
+</tr>
+<tr>
+<td style="text-align:left">002</td>
+<td style="text-align:center">2015-12-13</td>
+<td style="text-align:center">市桥</td>
+<td style="text-align:center">小蓝</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p> 区域信息表：</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">地点</th>
+<th style="text-align:center">地点所属区</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">东圃</td>
+<td style="text-align:center">天河区</td>
+</tr>
+<tr>
+<td style="text-align:left">市桥</td>
+<td style="text-align:center">番禺区</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p> 客户信息表：</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">名字</th>
+<th style="text-align:center">性别</th>
+<th style="text-align:center">年龄</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">小红</td>
+<td style="text-align:center">男</td>
+<td style="text-align:center">50岁</td>
+</tr>
+<tr>
+<td style="text-align:left">小蓝</td>
+<td style="text-align:center">女</td>
+<td style="text-align:center">40岁</td>
+</tr>
+</tbody>
+</table>
+<h3 id="总结">总结</h3><p>三个范式其实是层层递进的，就是说满足后面范式之前必须满足前面范式。一般来讲，数据库满足到第三范式就够用了。其实都是万变不离其宗：为了更好的维护和扩展，对数据库来讲是为了更好地进行CRUD(增删改查）。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>很多人喜欢用简短深奥的语言描述数据库三范式，也喜欢用分离的方法来理解三范式，本文就用简单语言、用一个例子连贯起来理解它。</p>
+<h3 id="准备">准备</h3><p>这里有个任务，要记录每次客户拜访的相关信息：</p>
+<blockquote>
+<p> 客户拜访信息表：</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">编号</th>
+<th style="text-align:center">时间</th>
+<th style="text-align:center">地点</th>
+<th style="text-align:center">名字</th>
+<th style="text-align:center">性别和年龄</th>
+<th style="text-align:center">地点所属区</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">001</td>
+<td style="text-align:center">2015-12-10</td>
+<td style="text-align:center">东圃</td>
+<td style="text-align:center">小红</td>
+<td style="text-align:center">男,50岁</td>
+<td style="text-align:center">天河区</td>
+</tr>
+<tr>
+<td style="text-align:left">002</td>
+<td style="text-align:center">2015-12-13</td>
+<td style="text-align:center">市桥</td>
+<td style="text-align:center">小蓝</td>
+<td style="text-align:center">女,40岁</td>
+<td style="text-align:center">番禺区</td>
+</tr>
+</tbody>
+</table>
+<p>当然这个是个有问题的表，下面我们通过三范式一步步优化这个设计。</p>]]>
+    
+    </summary>
+    
+      <category term="数据库设计三范式" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E4%B8%89%E8%8C%83%E5%BC%8F/"/>
+    
+      <category term="追女" scheme="http://yoursite.com/tags/%E8%BF%BD%E5%A5%B3/"/>
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Linux的pipe]]></title>
+    <link href="http://yoursite.com/2015/12/09/Linux%E7%9A%84pipe/"/>
+    <id>http://yoursite.com/2015/12/09/Linux的pipe/</id>
+    <published>2015-12-09T10:09:21.000Z</published>
+    <updated>2015-12-09T13:55:23.000Z</updated>
+    <content type="html"><![CDATA[<p>以下是对Linux的pipe函数理解整理：</p>
+<a id="more"></a>
+<h3 id="pipe是什么？">pipe是什么？</h3><blockquote>
+<p>pipe中文名叫管道，是<a href="/2015/12/09/通讯术语：全双工、半双工、单工/">半双工</a>的，用于进行父子进程间的通讯(IPC形式之一)。</p>
+</blockquote>
+<h3 id="pipe另外知识：">pipe另外知识：</h3><blockquote>
+<p>都知道Linux的基本哲学是”一切皆文件”,就是说可以有这些函数：<code>open</code>, <code>write</code>, <code>read</code>, <code>close</code>。</p>
+</blockquote>
+<h3 id="代码理解:">代码理解:</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;sys/types.h&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;errno.h&gt;</span></span></span><br><span class="line"></span><br><span class="line">main() &#123;</span><br><span class="line">	<span class="keyword">int</span> pipe_fd[<span class="number">2</span>];</span><br><span class="line">	<span class="keyword">pid_t</span> pid;</span><br><span class="line">	<span class="keyword">char</span> r_buf[<span class="number">100</span>];</span><br><span class="line">	<span class="keyword">char</span> w_buf[<span class="number">4</span>];</span><br><span class="line">	<span class="keyword">char</span>* p_wbuf;</span><br><span class="line">	<span class="keyword">int</span> r_num;</span><br><span class="line">	<span class="keyword">int</span> cmd;</span><br><span class="line">	<span class="built_in">memset</span>(r_buf,<span class="number">0</span>,<span class="keyword">sizeof</span>(r_buf));</span><br><span class="line">	<span class="built_in">memset</span>(w_buf,<span class="number">0</span>,<span class="keyword">sizeof</span>(w_buf));</span><br><span class="line">	p_wbuf=w_buf;</span><br><span class="line">	<span class="keyword">if</span>(pipe(pipe_fd)&lt;<span class="number">0</span>) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"pipe create error "</span>);</span><br><span class="line">		<span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>((pid=fork())==<span class="number">0</span>) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">" "</span>);</span><br><span class="line">		close(pipe_fd[<span class="number">1</span>]);</span><br><span class="line">		sleep(<span class="number">3</span>);</span><br><span class="line">		r_num=read(pipe_fd[<span class="number">0</span>],r_buf,<span class="number">100</span>);</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"read num is %d the data read from the pipe is %d "</span>,</span><br><span class="line">			r_num,atoi(r_buf));</span><br><span class="line">		close(pipe_fd[<span class="number">0</span>]);</span><br><span class="line">		<span class="built_in">exit</span>(<span class="number">0</span>);</span><br><span class="line">	&#125; <span class="keyword">else</span> <span class="keyword">if</span>(pid&gt;<span class="number">0</span>) &#123;</span><br><span class="line">		close(pipe_fd[<span class="number">0</span>]);</span><br><span class="line">		<span class="built_in">strcpy</span>(w_buf,<span class="string">"168"</span>);</span><br><span class="line">		<span class="keyword">if</span>(write(pipe_fd[<span class="number">1</span>],w_buf,<span class="number">100</span>) != -<span class="number">1</span>)</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"parent write over "</span>);</span><br><span class="line">		close(pipe_fd[<span class="number">1</span>]);</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"parent close fd[1] over "</span>);</span><br><span class="line">		sleep(<span class="number">10</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>这段程序可以这样运行，先将此代码保存在pipetest.c中，然后执行gcc -o pipetest pipetest.c，在执行./pipetest，就可以看到输出结果。<br>可以看到<code>pipe</code>函数将int数组<code>pipe_fd</code>初始化成了管道的两个地址值，注意如下：</p>
+<ul>
+<li><code>pipe_fd[0]</code>为读管道，<code>pipe_fd[1]</code>为写管道</li>
+<li>fork函数很有意思地生成了一个跟当前进程几乎一样的子进程，他们都执行到pid=fork()这里，其中父进程返回新创建的子进程id，子进程返回0（创建子进程失败返回小于0）。<br>数据的读出和写入：一个进程向管道中写的内容被管道另一端的进程读出。写入的内容每次都添加在管道缓冲区的末尾，并且每次都是从缓冲区的头部读出数据。<h3 id="运用例子：">运用例子：</h3>比如shell语句的who│wc -l后，相应shell程序将创建who以及wc两个进程和这两个进程间的管道。一个命令的输出直接定向到另一个命令的输入。</li>
+</ul>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>以下是对Linux的pipe函数理解整理：</p>]]>
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="pipe" scheme="http://yoursite.com/tags/pipe/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[通讯术语：全双工、半双工、单工]]></title>
+    <link href="http://yoursite.com/2015/12/09/%E9%80%9A%E8%AE%AF%E6%9C%AF%E8%AF%AD%EF%BC%9A%E5%85%A8%E5%8F%8C%E5%B7%A5%E3%80%81%E5%8D%8A%E5%8F%8C%E5%B7%A5%E3%80%81%E5%8D%95%E5%B7%A5/"/>
+    <id>http://yoursite.com/2015/12/09/通讯术语：全双工、半双工、单工/</id>
+    <published>2015-12-09T09:40:37.000Z</published>
+    <updated>2015-12-09T10:04:56.000Z</updated>
+    <content type="html"><![CDATA[<p>以下是对这几个术语的理解整理：</p>
+<a id="more"></a>
+<h3 id="全双工(Full_Duplex)">全双工(Full Duplex)</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">好比是双向车道，即有车开往这边，又有车开往那边，同时进行。</span><br></pre></td></tr></table></figure>
+<h3 id="半双工(Half_Duplex)">半双工(Half Duplex)</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">好比独木桥，不管哪个方向，一次只能一个人过去。</span><br></pre></td></tr></table></figure>
+<h3 id="单工">单工</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">单，也就是只允许一个方向，比如超市有些门只能进不能出。</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>以下是对这几个术语的理解整理：</p>]]>
+    
+    </summary>
+    
+      <category term="通讯术语" scheme="http://yoursite.com/tags/%E9%80%9A%E8%AE%AF%E6%9C%AF%E8%AF%AD/"/>
+    
+      <category term="通讯" scheme="http://yoursite.com/categories/%E9%80%9A%E8%AE%AF/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[关于Hexo的几个知识整理]]></title>
@@ -39,61 +831,6 @@
       <category term="知识" scheme="http://yoursite.com/tags/%E7%9F%A5%E8%AF%86/"/>
     
       <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[关于我的]]></title>
-    <link href="http://yoursite.com/2015/12/07/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84/"/>
-    <id>http://yoursite.com/2015/12/07/关于我的/</id>
-    <published>2015-12-07T12:18:44.000Z</published>
-    <updated>2015-12-07T13:54:38.000Z</updated>
-    <content type="html"><![CDATA[<p>欢迎来到 <a href="http://www.lianquna.com" target="_blank" rel="external">链去哪</a>! 这是第一篇测试文章。</p>
-<h2 id="快速开始">快速开始</h2><h3 id="创造个新文章">创造个新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">给个代码区.....</span><br></pre></td></tr></table></figure>
-<p>更多消息请到: <a href="http://www.lianquna.com" target="_blank" rel="external">链去哪</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>欢迎来到 <a href="http://www.lianquna.com" target="_blank" rel="external">链去哪</a>! 这是第一篇测试文章。</p>
-<h2 id="快速开始">快速开始</h2><h3 id="创造个新文章">创造个新]]>
-    </summary>
-    
-      <category term="关于我的" scheme="http://yoursite.com/tags/%E5%85%B3%E4%BA%8E%E6%88%91%E7%9A%84/"/>
-    
-      <category term="iframe" scheme="http://yoursite.com/categories/iframe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[第二篇测试]]></title>
-    <link href="http://yoursite.com/2015/12/07/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2015/12/07/第二篇测试/</id>
-    <published>2015-12-07T08:18:08.000Z</published>
-    <updated>2015-12-07T08:18:08.000Z</updated>
-    <content type="html"></content>
-    <summary type="html">
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[第一篇测试用的文章]]></title>
-    <link href="http://yoursite.com/2015/12/05/hello-world/"/>
-    <id>http://yoursite.com/2015/12/05/hello-world/</id>
-    <published>2015-12-05T10:37:43.000Z</published>
-    <updated>2015-12-07T07:28:34.000Z</updated>
-    <content type="html"><![CDATA[<p>欢迎来到 <a href="http://www.lianquna.com" target="_blank" rel="external">链去哪</a>! 这是第一篇测试文章。</p>
-<h2 id="快速开始">快速开始</h2><h3 id="创造个新文章">创造个新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">给个代码区...</span><br></pre></td></tr></table></figure>
-<p>更多消息请到: <a href="http://www.lianquna.com" target="_blank" rel="external">链去哪</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>欢迎来到 <a href="http://www.lianquna.com" target="_blank" rel="external">链去哪</a>! 这是第一篇测试文章。</p>
-<h2 id="快速开始">快速开始</h2><h3 id="创造个新文章">创造个新]]>
-    </summary>
-    
-      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="其他" scheme="http://yoursite.com/categories/%E5%85%B6%E4%BB%96/"/>
     
   </entry>
   
