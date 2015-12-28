@@ -4,7 +4,7 @@
   <subtitle><![CDATA[给世界酷出我的酷]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://kuwoku.com/"/>
-  <updated>2015-12-25T03:43:15.000Z</updated>
+  <updated>2015-12-28T11:54:24.000Z</updated>
   <id>http://kuwoku.com/</id>
   
   <author>
@@ -13,6 +13,81 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[本站多说评论的CSS设置]]></title>
+    <link href="http://kuwoku.com/2015/12/28/%E6%9C%AC%E7%AB%99%E5%A4%9A%E8%AF%B4%E8%AF%84%E8%AE%BA%E7%9A%84CSS%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://kuwoku.com/2015/12/28/本站多说评论的CSS设置/</id>
+    <published>2015-12-28T11:46:24.000Z</published>
+    <updated>2015-12-28T11:54:24.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="以下是本站多说的CSS设置内容：">以下是本站多说的CSS设置内容：</h3><a id="more"></a>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br></pre></td><td class="code"><pre><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">ul</span><span class="class">.ds-comments-tabs</span> <span class="tag">li</span><span class="class">.ds-tab</span> <span class="tag">a</span><span class="class">.ds-current</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">border</span>:<span class="value"><span class="number">0px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#848568</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">text-shadow</span>:<span class="value">none</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">background</span>:<span class="value"><span class="hexcolor">#dddfc2</span></span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-highlight</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">font-family</span>:<span class="value">Arial,Helvetica,sans-serif</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">font-size</span>:<span class="value"><span class="number">14px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">font-weight</span>:<span class="value">bold</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#848568</span> <span class="important">!important</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">ul</span><span class="class">.ds-comments-tabs</span> <span class="tag">li</span><span class="class">.ds-tab</span> <span class="tag">a</span><span class="class">.ds-current</span><span class="pseudo">:hover</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#696a52</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">background</span>:<span class="value"><span class="hexcolor">#d4d6ba</span></span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">a</span><span class="class">.ds-highlight</span><span class="pseudo">:hover</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#696a52</span> <span class="important">!important</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">padding-left</span>:<span class="value"><span class="number">30px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">li</span><span class="class">.ds-post</span>,<span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="id">#ds-hot-posts</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">overflow</span>:<span class="value">visible</span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-post-self</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">padding</span>:<span class="value"><span class="number">10px</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">li</span><span class="class">.ds-post</span>,<span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-post-self</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">border</span>:<span class="value"><span class="number">0</span> <span class="important">!important</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-avatar</span>,<span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">ul</span><span class="class">.ds-children</span> <span class="class">.ds-avatar</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">position</span>:<span class="value">absolute</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">top</span>:<span class="value"><span class="number">26px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">left</span>:<span class="value">-<span class="number">14px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">padding</span>:<span class="value"><span class="number">5px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">width</span>:<span class="value"><span class="number">36px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">36px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">box-shadow</span>:<span class="value">-<span class="number">1px</span> <span class="number">0</span> <span class="number">1px</span> <span class="function">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,.<span class="number">15</span>) inset</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">border-radius</span>:<span class="value"><span class="number">46px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">background</span>:<span class="value"><span class="hexcolor">#E5E6D0</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">ul</span><span class="class">.ds-children</span> <span class="class">.ds-avatar</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">left</span>:<span class="value">-<span class="number">23px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="class">.ds-avatar</span> <span class="tag">a</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">display</span>:<span class="value">inline-block</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">padding</span>:<span class="value"><span class="number">1px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">width</span>:<span class="value"><span class="number">32px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">32px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">border</span>:<span class="value"><span class="number">1px</span> solid <span class="hexcolor">#b9baa6</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">border-radius</span>:<span class="value"><span class="number">50%</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">background-color</span>:<span class="value"><span class="hexcolor">#fff</span> <span class="important">!important</span></span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-thread</span> <span class="class">.ds-avatar</span> <span class="tag">a</span><span class="pseudo">:hover</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">border-color</span>:<span class="value"><span class="hexcolor">#de5a4e</span></span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-thread</span> <span class="class">.ds-avatar</span> &gt; <span class="tag">img</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">margin</span>:<span class="value"><span class="number">2px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">2px</span></span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-replybox</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">box-shadow</span>:<span class="value">none</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="tag">ul</span><span class="class">.ds-children</span> <span class="class">.ds-replybox</span><span class="class">.ds-inline-replybox</span> <span class="tag">a</span><span class="class">.ds-avatar</span>,</span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-replybox</span><span class="class">.ds-inline-replybox</span> <span class="tag">a</span><span class="class">.ds-avatar</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">left</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">top</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">padding</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">width</span>:<span class="value"><span class="number">32px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">32px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">background</span>:<span class="value">none</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">box-shadow</span>:<span class="value">none</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-replybox</span><span class="class">.ds-inline-replybox</span> <span class="tag">a</span><span class="class">.ds-avatar</span> <span class="tag">img</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">width</span>:<span class="value"><span class="number">32px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">32px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">border-radius</span>:<span class="value"><span class="number">50%</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-replybox</span> <span class="tag">a</span><span class="class">.ds-avatar</span>,<span class="id">#ds-reset</span> <span class="class">.ds-replybox</span> <span class="class">.ds-avatar</span> <span class="tag">img</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">padding</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">width</span>:<span class="value"><span class="number">50px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">50px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">border-radius</span>:<span class="value"><span class="number">5px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-avatar</span> <span class="tag">img</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">width</span>:<span class="value"><span class="number">32px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">32px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">border-radius</span>:<span class="value"><span class="number">32px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">box-shadow</span>:<span class="value"><span class="number">0</span> <span class="number">1px</span> <span class="number">3px</span> <span class="function">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0.22</span>)</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">-webkit-transition</span>:<span class="value">.<span class="number">4s</span> all ease-in-out</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">-moz-transition</span>:<span class="value">.<span class="number">4s</span> all ease-in-out</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">-o-transition</span>:<span class="value">.<span class="number">4s</span> all ease-in-out</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">-ms-transition</span>:<span class="value">.<span class="number">4s</span> all ease-in-out</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">transition</span>:<span class="value">.<span class="number">4s</span> all ease-in-out</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="class">.ds-post-self</span><span class="pseudo">:hover</span> <span class="class">.ds-avatar</span> <span class="tag">img</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">-webkit-transform</span>:<span class="value"><span class="function">rotate</span>(<span class="number">360deg</span>)</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">-moz-transform</span>:<span class="value"><span class="function">rotate</span>(<span class="number">360deg</span>)</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">-o-transform</span>:<span class="value"><span class="function">rotate</span>(<span class="number">360deg</span>)</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">-ms-transform</span>:<span class="value"><span class="function">rotate</span>(<span class="number">360deg</span>)</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">transform</span>:<span class="value"><span class="function">rotate</span>(<span class="number">360deg</span>)</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-comment-body</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">background</span>:<span class="value"><span class="hexcolor">#F0F0E3</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">padding</span>:<span class="value"><span class="number">15px</span> <span class="number">15px</span> <span class="number">12px</span> <span class="number">32px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">border-radius</span>:<span class="value"><span class="number">5px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">box-shadow</span>:<span class="value"><span class="number">0</span> <span class="number">1px</span> <span class="number">2px</span> <span class="function">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,.<span class="number">15</span>),<span class="number">0</span> <span class="number">1px</span> <span class="number">0</span> <span class="function">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,.<span class="number">75</span>) inset</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-comment-body</span> <span class="tag">p</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#787968</span></span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-comments</span> <span class="tag">a</span><span class="class">.ds-user-name</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">font-weight</span>:<span class="value">bold</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#696A52</span> <span class="important">!important</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-comments</span> <span class="tag">a</span><span class="class">.ds-user-name</span><span class="pseudo">:hover</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#D32</span> <span class="important">!important</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="id">#ds-hot-posts</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">border</span>:<span class="value"><span class="number">0</span></span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-hot-posts</span> <span class="class">.ds-gradient-bg</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">background</span>:<span class="value">none</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-bubble</span> <span class="id">#ds-ctx</span> <span class="class">.ds-ctx-entry</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">padding</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-bubble</span> <span class="class">.ds-avatar</span>,<span class="id">#ds-reset</span> <span class="id">#ds-bubble</span> <span class="id">#ds-ctx-bubble</span> <span class="class">.ds-avatar</span> <span class="tag">a</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">position</span>:<span class="value">static</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">padding</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">border</span>:<span class="value"><span class="number">0</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">background</span>:<span class="value">none</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">box-shadow</span>:<span class="value">none</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-bubble</span> <span class="class">.ds-avatar</span> <span class="tag">img</span>,<span class="id">#ds-reset</span> <span class="id">#ds-bubble</span> <span class="id">#ds-ctx-bubble</span> <span class="class">.ds-avatar</span> <span class="tag">a</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">width</span>:<span class="value"><span class="number">45px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">height</span>:<span class="value"><span class="number">45px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-bubble</span> <span class="class">.ds-user-name</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">padding-left</span>:<span class="value"><span class="number">13px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="class">.ds-comment-body</span> <span class="id">#ds-ctx</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">border-left</span>:<span class="value"><span class="number">1px</span> solid <span class="hexcolor">#b9baa6</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">background-color</span>:<span class="value"><span class="hexcolor">#e8e8dc</span> <span class="important">!important</span></span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-ctx</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">margin-right</span>:<span class="value">-<span class="number">15px</span></span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-ctx</span> <span class="class">.ds-ctx-entry</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">position</span>:<span class="value">relative</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">padding</span>:<span class="value"><span class="number">10px</span> <span class="number">30px</span> <span class="number">10px</span> <span class="number">10px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-ctx</span> <span class="class">.ds-ctx-entry</span> <span class="class">.ds-avatar</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">top</span>:<span class="value"><span class="number">6px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">left</span>:<span class="value"><span class="number">5px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">background</span>:<span class="value">none</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">box-shadow</span>:<span class="value">none</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-ctx</span> <span class="class">.ds-ctx-entry</span> <span class="class">.ds-ctx-body</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">margin-left</span>:<span class="value"><span class="number">46px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-ctx</span> <span class="class">.ds-ctx-entry</span> <span class="class">.ds-ctx-content</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#787968</span></span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-reset</span> <span class="id">#ds-ctx</span> <span class="class">.ds-ctx-entry</span> <span class="class">.ds-ctx-head</span> <span class="tag">a</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#696A52</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">font-weight</span>:<span class="value">bold</span><br><span class="line"></span></span></span>&#125;</span><br><span class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-powered-by</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">display</span>:<span class="value">none</span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<p>多说的CSS修改请参考<a href="http://dev.duoshuo.com/docs/4ff1cfd0397309552c000017" target="_blank" rel="external">这里</a>。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="以下是本站多说的CSS设置内容：">以下是本站多说的CSS设置内容：</h3>]]>
+    
+    </summary>
+    
+      <category term="CSS" scheme="http://kuwoku.com/tags/CSS/"/>
+    
+      <category term="多说" scheme="http://kuwoku.com/tags/%E5%A4%9A%E8%AF%B4/"/>
+    
+      <category term="CSS" scheme="http://kuwoku.com/categories/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我辞职在家做了什么]]></title>
+    <link href="http://kuwoku.com/2015/12/28/%E6%88%91%E8%BE%9E%E8%81%8C%E5%9C%A8%E5%AE%B6%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88/"/>
+    <id>http://kuwoku.com/2015/12/28/我辞职在家做了什么/</id>
+    <published>2015-12-28T10:44:03.000Z</published>
+    <updated>2015-12-28T10:44:03.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[用友荐赚得的几毛钱]]></title>
+    <link href="http://kuwoku.com/2015/12/28/%E7%94%A8%E5%8F%8B%E8%8D%90%E8%B5%9A%E5%BE%97%E7%9A%84%E5%87%A0%E6%AF%9B%E9%92%B1/"/>
+    <id>http://kuwoku.com/2015/12/28/用友荐赚得的几毛钱/</id>
+    <published>2015-12-28T10:40:35.000Z</published>
+    <updated>2015-12-28T10:40:35.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我为什么放弃工资辞职]]></title>
+    <link href="http://kuwoku.com/2015/12/28/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E6%94%BE%E5%BC%83%E5%B7%A5%E8%B5%84%E8%BE%9E%E8%81%8C/"/>
+    <id>http://kuwoku.com/2015/12/28/我为什么放弃工资辞职/</id>
+    <published>2015-12-28T10:38:20.000Z</published>
+    <updated>2015-12-28T10:38:20.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[批评现在的科技博客]]></title>
+    <link href="http://kuwoku.com/2015/12/28/%E6%89%B9%E8%AF%84%E7%8E%B0%E5%9C%A8%E7%9A%84%E7%A7%91%E6%8A%80%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://kuwoku.com/2015/12/28/批评现在的科技博客/</id>
+    <published>2015-12-28T05:23:11.000Z</published>
+    <updated>2015-12-28T05:23:11.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[销售攻心术读书笔记之-销售产品前先推销自己]]></title>
@@ -641,175 +716,6 @@
       <category term="快捷键" scheme="http://kuwoku.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
       <category term="Android" scheme="http://kuwoku.com/categories/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[如何在线查看Android源码]]></title>
-    <link href="http://kuwoku.com/2015/12/15/%E5%A6%82%E4%BD%95%E5%9C%A8%E7%BA%BF%E6%9F%A5%E7%9C%8BAndroid%E6%BA%90%E7%A0%81/"/>
-    <id>http://kuwoku.com/2015/12/15/如何在线查看Android源码/</id>
-    <published>2015-12-14T21:02:27.000Z</published>
-    <updated>2015-12-14T21:17:13.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="方法：">方法：</h3><a id="more"></a>
-<p><a href="http://androidxref.com/2.2.3/xref/frameworks/base/core/java/android/os/Handler.java#297" target="_blank" rel="external">http://androidxref.com/2.2.3/xref/frameworks/base/core/java/android/os/Handler.java#297</a></p>
-<blockquote>
-<ul>
-<li>注意后面可以带上行号定位…</li>
-</ul>
-</blockquote>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h3 id="方法：">方法：</h3>]]>
-    
-    </summary>
-    
-      <category term="源码" scheme="http://kuwoku.com/tags/%E6%BA%90%E7%A0%81/"/>
-    
-      <category term="Android" scheme="http://kuwoku.com/categories/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[坑爹虚拟机网络配置的一些经验]]></title>
-    <link href="http://kuwoku.com/2015/12/14/%E5%9D%91%E7%88%B9%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/"/>
-    <id>http://kuwoku.com/2015/12/14/坑爹虚拟机网络配置的一些经验/</id>
-    <published>2015-12-14T08:25:43.000Z</published>
-    <updated>2015-12-14T12:08:44.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="前言：">前言：</h3><pre><code>虚拟机的网络配置很坑爹，各种组合，搞得头晕，有时候会出现主机和虚拟机一方<span class="built_in">ping</span>不通令一方。
-</code></pre><a id="more"></a>
-<h3 id="一些经验：">一些经验：</h3><blockquote>
-<ul>
-<li>因为<code>NAT</code>连接方式简单，大多数都用NAT方式。</li>
-<li><code>NAT</code>方式有时候主机ping不通虚拟机，这时候要注意要使虚拟机的网段和主机网段一样。</li>
-<li>坑爹请注意：<code>NAT</code>模式对应<strong>VMnet8</strong>虚拟网络，<code>host-only</code>模式对应<strong>VMnet1</strong>虚拟网络，<code>Bridged</code>模式对应<strong>VMnet0</strong>虚拟网络。</li>
-<li>坑爹请注意：Virtual Network Editor里面一定要进行<code>NAT</code>和<code>Bridged</code>两种类型网络设置。</li>
-</ul>
-</blockquote>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h3 id="前言：">前言：</h3><pre><code>虚拟机的网络配置很坑爹，各种组合，搞得头晕，有时候会出现主机和虚拟机一方<span class="built_in">ping</span>不通令一方。
-</code></pre>]]>
-    
-    </summary>
-    
-      <category term="虚拟机" scheme="http://kuwoku.com/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    
-      <category term="虚拟机" scheme="http://kuwoku.com/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[用iframe嵌入个人信息界面练习]]></title>
-    <link href="http://kuwoku.com/2015/12/14/%E7%94%A8iframe%E5%B5%8C%E5%85%A5%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E7%95%8C%E9%9D%A2%E7%BB%83%E4%B9%A0/"/>
-    <id>http://kuwoku.com/2015/12/14/用iframe嵌入个人信息界面练习/</id>
-    <published>2015-12-14T07:13:10.000Z</published>
-    <updated>2015-12-14T08:10:23.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="前言：">前言：</h3><pre><code>下面是一些用iframe嵌入个人信息界面的练习：
-</code></pre><a id="more"></a>
-<h4 id="我的StackOverflow_（这个只是图片嵌入）：">我的StackOverflow （这个只是图片嵌入）：</h4><p><a href="http://stackoverflow.com/users/5230013/afirsraftgarrier" target="_blank" rel="external"><img src="http://stackoverflow.com/users/flair/5230013.png?theme=clean" alt="alt 我的StackOverflow"></a></p>
-<h4 id="我的Github：">我的Github：</h4><iframe border="0" frameborder="0" width="500" marginheight="0" marginwidth="0" scrolling="no" src="https://phphub.org/github-card?user=AfirSraftGarrier"><br></iframe>
-
-
-<h4 id="我的Music：">我的Music：</h4><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="http://music.163.com/outchain/player?type=0&id=135482478&auto=1&height=430"><br></iframe>]]></content>
-    <summary type="html">
-    <![CDATA[<h3 id="前言：">前言：</h3><pre><code>下面是一些用iframe嵌入个人信息界面的练习：
-</code></pre>]]>
-    
-    </summary>
-    
-      <category term="iframe" scheme="http://kuwoku.com/tags/iframe/"/>
-    
-      <category term="HTML" scheme="http://kuwoku.com/categories/HTML/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[溜冰个人经验总结]]></title>
-    <link href="http://kuwoku.com/2015/12/13/%E6%BA%9C%E5%86%B0%E4%B8%AA%E4%BA%BA%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/"/>
-    <id>http://kuwoku.com/2015/12/13/溜冰个人经验总结/</id>
-    <published>2015-12-13T14:22:34.000Z</published>
-    <updated>2015-12-14T03:32:25.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="以下是个人溜冰的一些经验总结：">以下是个人溜冰的一些经验总结：</h3><blockquote>
-<ul>
-<li>溜冰要循序渐进，不可操之过急。</li>
-<li>要敢于尝试，大胆些。</li>
-<li>不怕摔倒，很多很厉害的人也会摔倒。</li>
-<li>不管正溜，倒溜，最重要的是平衡。</li>
-<li>不要只一味的溜，可以看看别人怎么溜。</li>
-<li>刹车很重要，要多练习。</li>
-</ul>
-</blockquote>
-<a id="more"></a>
-<h3 id="总结">总结</h3><pre><code>通过溜冰可以看到一些道理：做任何事情，都要循序渐进，要勇于尝试，不怕丢脸，多观察、多思考、多总结。
-还有一点，就是要有能力控制风险，这样一来可以让自己更大胆，二来可以在危险的时候避免损失太多。
-</code></pre>]]></content>
-    <summary type="html">
-    <![CDATA[<h3 id="以下是个人溜冰的一些经验总结：">以下是个人溜冰的一些经验总结：</h3><blockquote>
-<ul>
-<li>溜冰要循序渐进，不可操之过急。</li>
-<li>要敢于尝试，大胆些。</li>
-<li>不怕摔倒，很多很厉害的人也会摔倒。</li>
-<li>不管正溜，倒溜，最重要的是平衡。</li>
-<li>不要只一味的溜，可以看看别人怎么溜。</li>
-<li>刹车很重要，要多练习。</li>
-</ul>
-</blockquote>]]>
-    
-    </summary>
-    
-      <category term="溜冰" scheme="http://kuwoku.com/tags/%E6%BA%9C%E5%86%B0/"/>
-    
-      <category term="溜冰" scheme="http://kuwoku.com/categories/%E6%BA%9C%E5%86%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[肾结石注意事项]]></title>
-    <link href="http://kuwoku.com/2015/12/12/%E8%82%BE%E7%BB%93%E7%9F%B3%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
-    <id>http://kuwoku.com/2015/12/12/肾结石注意事项/</id>
-    <published>2015-12-12T13:24:53.000Z</published>
-    <updated>2015-12-12T14:55:16.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="前言：">前言：</h3><pre><code>经常坐电脑前面的人，特别是做IT的，如果不常喝水，容易得肾结石。
-</code></pre><a id="more"></a>
-<h3 id="肾结石就医注意">肾结石就医注意</h3><blockquote>
-<ul>
-<li>尽量叫上朋友，因为要挂号、取药之类的事情，经常走动会加剧疼痛。</li>
-<li>不管多痛，记得带钱，不然付不了钱很麻烦，当然还有手机。</li>
-<li>当尿痛时，有可能是肾绞痛引起的，要预判，紧急就医。</li>
-<li>要打的或用工具找的士，要选择就近就医，避免过多走动加剧疼痛。</li>
-<li>如果当时已经很疼，可以给医生提议打一枚止痛针再进行葡萄糖输液，不要硬撑。</li>
-<li>输液时要平躺，尽量不要动，盖好被子。</li>
-<li>吊完针后如果没有疼痛要大量喝温的清水，如果此时能顺利排尿就差不多了。</li>
-</ul>
-</blockquote>
-<h3 id="肾结石平时注意">肾结石平时注意</h3><blockquote>
-<ul>
-<li>如果石头直径不超过5mm，不建议进行碎石，可以多喝水，多运动，选择一些药帮助排出。</li>
-<li>肾结石有时候和体位有关系，有可能用一个体位，结石就不会堵住输尿管。</li>
-<li>晚上睡觉一定不要让腰部受凉，这样可能引起输尿管收缩然后和结石作用而形成痉挛。</li>
-<li>健康有三通，尿通、便通、血通，尿不通对人影响很大，所以要多喝水多排尿，杜绝憋尿。</li>
-<li>多喝水，这是最重要的，喝水有助于稀释尿液，这就不用说了。</li>
-</ul>
-</blockquote>
-<h3 id="肾结石饮食注意">肾结石饮食注意</h3><blockquote>
-<ul>
-<li>因为肾结石大多为草酸钙构成，所以尽量少吃含草酸钙的食物。<br>  草酸钙多的食物比如：红薯，菠菜，啤酒，大多数茶，巧克力饮料，橘子…</li>
-<li>多吃含维生素A的食物，有助于尿道内膜健康，阻碍结石复发。<br>  含维生素A的食物比如：苹果，香蕉，梨，西瓜，大白菜，番茄，南瓜，黄瓜，绿豆…</li>
-<li>多吃含钙的食物，因为钙可以和草酸钙结合，这样就不容易形成结石。<br>  含钙多的食物比如：牛奶，海带，豆腐，骨头汤，鸡蛋，酸奶…</li>
-<li>吃东西要温的为主，喝的水要纯净的。<br>  避免一次只喝一小口止渴的情况，要喝就喝多点，这样身体才能更好吸收。</li>
-<li>控制肉类摄取，减少动物性蛋白摄取可减少结石形成机会。</li>
-</ul>
-</blockquote>
-<h4 id="最后提醒一句：多喝水、多喝水、多喝水，重要的事说三遍…">最后提醒一句：多喝水、多喝水、多喝水，重要的事说三遍…</h4>]]></content>
-    <summary type="html">
-    <![CDATA[<h3 id="前言：">前言：</h3><pre><code>经常坐电脑前面的人，特别是做IT的，如果不常喝水，容易得肾结石。
-</code></pre>]]>
-    
-    </summary>
-    
-      <category term="肾结石" scheme="http://kuwoku.com/tags/%E8%82%BE%E7%BB%93%E7%9F%B3/"/>
-    
-      <category term="肾结石" scheme="http://kuwoku.com/categories/%E8%82%BE%E7%BB%93%E7%9F%B3/"/>
     
   </entry>
   

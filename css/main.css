@@ -965,7 +965,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff63ff;
+  background: #e4ecff;
 }
 .sidebar-nav {
   margin: 0 0 20px;
@@ -1697,9 +1697,6 @@ body {
 .theme-next #ds-thread #ds-reset .ds-comments-info {
   padding: 10px 0;
 }
-.theme-next #ds-thread #ds-reset .ds-sort {
-  display: none;
-}
 .theme-next #ds-thread #ds-reset li.ds-tab a.ds-current {
   border: none;
   background: #f6f8fa;
@@ -1868,6 +1865,22 @@ body {
 }
 .jiathis_style a {
   border: none;
+}
+.jiathis_stylef {
+  display: inline-block;
+}
+.jiathis_stylef a {
+  border: none;
+}
+#ujian-side tr {
+  background-color: transparent;
+}
+#ujian-side tr:hover {
+  background-color: transparent;
+}
+#ujian-side,
+#ujian-backtop a {
+  border-bottom: none;
 }
 .use-motion .post {
   opacity: 0;
