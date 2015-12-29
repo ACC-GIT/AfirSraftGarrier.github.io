@@ -59,7 +59,7 @@
 <meta property="og:url" content="http://kuwoku.com/2015/12/07/关于Hexo的几个知识整理/index.html">
 <meta property="og:site_name" content="酷我酷">
 <meta property="og:description" content="以下是玩Hexo遇到的几个问题和解决方法整理。">
-<meta property="og:updated_time" content="2015-12-08T05:51:00.000Z">
+<meta property="og:updated_time" content="2015-12-29T12:38:08.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于Hexo的几个知识整理">
 <meta name="twitter:description" content="以下是玩Hexo遇到的几个问题和解决方法整理。">
@@ -484,7 +484,7 @@
 <h3 id="hexo_d和hexo_deploy相同吗（其他如hexo_n等同理）?">hexo d和hexo deploy相同吗（其他如hexo n等同理）?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d是hexo deploy的简写，相同。</span><br></pre></td></tr></table></figure>
 <h3 id="每次hexo_d前都要hexo_g好麻烦，有简便方法吗?">每次hexo d前都要hexo g好麻烦，有简便方法吗?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">可以合并shell语句成hexo g <span class="operator">-d</span>。</span><br></pre></td></tr></table></figure>
 <h3 id="Hexo有个阅读更多的简介是怎么出来的?">Hexo有个阅读更多的简介是怎么出来的?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在你想要留作简介的段落下面添加一行&lt;!--more--&gt;就可以。</span><br></pre></td></tr></table></figure>
-<h3 id="Hexo每篇文章如何添加阅读次数?">Hexo每篇文章如何添加阅读次数?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">用[不蒜子]或者[LeanCloud]都可以，具体方法请查找。</span><br></pre></td></tr></table></figure>
+<h3 id="Hexo每篇文章如何添加阅读次数?">Hexo每篇文章如何添加阅读次数?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">用`不蒜子`或者`LeanCloud`都可以，具体方法请查找。</span><br></pre></td></tr></table></figure>
 <h3 id="命令hexo_d提交到Github的时候都要进行输入用户名密码，有简便方法吗?">命令hexo d提交到Github的时候都要进行输入用户名密码，有简便方法吗?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">执行git config --global credential.helper store</span><br><span class="line">或者修改GIT相关的配置为https://[userName]:[password]@github.com/[username]/project.git</span><br></pre></td></tr></table></figure>
 <h3 id="命令hexo_g会把Hexo_source不相关文件清除，README-md和LICENSE文件怎么办?">命令hexo g会把Hexo source不相关文件清除，README.md和LICENSE文件怎么办?</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">对于LICENSE等文件，可以放在Hexo博客的根目录的<span class="built_in">source</span>文件夹中</span><br><span class="line">对于README.md等md文件，想保持就在根目录的_config.yml中配置如skip_render: README.md。</span><br></pre></td></tr></table></figure></span>
       
@@ -676,7 +676,7 @@
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">34</span>
+              <span class="site-state-item-count">36</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
@@ -805,10 +805,11 @@
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" target="_blank" style="color:gray">
     NEXT
   </a>
+  <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <span id="busuanzi_container_site_pv">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 </div>
 
 <div class="theme-info">
-   <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
    <script>
    (function(){
        var bp = document.createElement('script');
@@ -817,7 +818,7 @@
        s.parentNode.insertBefore(bp, s);
    })();
    </script>
-   <span id="busuanzi_container_site_pv">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+   <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257066910'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1257066910%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
 </div>
 <p style="margin-bottom:-10px;">COPYRIGHT © 酷我酷  粤ICP备14100221号</p>
 
