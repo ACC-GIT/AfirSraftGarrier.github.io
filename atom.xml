@@ -4,7 +4,7 @@
   <subtitle><![CDATA[给世界酷出我的酷]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://kuwoku.com/"/>
-  <updated>2015-12-29T03:58:42.000Z</updated>
+  <updated>2015-12-29T06:50:49.000Z</updated>
   <id>http://kuwoku.com/</id>
   
   <author>
@@ -13,6 +13,74 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hexo怎么制作和发布百度和谷歌的网站地图]]></title>
+    <link href="http://kuwoku.com/2015/12/29/Hexo%E6%80%8E%E4%B9%88%E5%88%B6%E4%BD%9C%E5%92%8C%E5%8F%91%E5%B8%83%E7%99%BE%E5%BA%A6%E5%92%8C%E8%B0%B7%E6%AD%8C%E7%9A%84%E7%BD%91%E7%AB%99%E5%9C%B0%E5%9B%BE/"/>
+    <id>http://kuwoku.com/2015/12/29/Hexo怎么制作和发布百度和谷歌的网站地图/</id>
+    <published>2015-12-29T04:41:55.000Z</published>
+    <updated>2015-12-29T06:50:49.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="网站地图是什么？">网站地图是什么？</h3><p>网站地图又叫<code>站点地图</code>，简单说我们制作好后就是一个文件，里面放了需要搜索引擎抓取的链接，一般放在跟目录下，供<code>搜索引擎蜘蛛</code>访问，这样能够方便搜索引擎蜘蛛抓取页面。</p>
+<h3 id="为什么要做网站地图？">为什么要做网站地图？</h3><blockquote>
+<ul>
+<li>避免搜索引擎遇到<code>死链接</code>而没有往下层爬的情况，提高页面搜录量。</li>
+<li>可以提供给用户看，方便浏览网站。</li>
+<li>网站地图是指向其他页面的链接，给页面增加导入链接，从而提高页面权重，从而提高页面搜录率。</li>
+</ul>
+</blockquote>
+<a id="more"></a>
+<h3 id="Hexo如何制作网站地图？">Hexo如何制作网站地图？</h3><p>对于Hexo，可以对baidu和google进行制作网站地图，要装一些插件，代码如下：</p>
+<blockquote>
+<ul>
+<li>安装制作百度和谷歌的网站地图的插件</li>
+</ul>
+</blockquote>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> hexo-generator-sitemap <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-baidu-sitemap <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<ul>
+<li>Hexo相关配置：要在博客配置文件中加入如下：</li>
+</ul>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sitemap:</span><br><span class="line">path: sitemap.xml</span><br><span class="line">baidusitemap:</span><br><span class="line">path: baidusitemap.xml</span><br></pre></td></tr></table></figure>
+<h3 id="如何安装网站地图？">如何安装网站地图？</h3><blockquote>
+<ul>
+<li>对于百度，方法如下：</li>
+</ul>
+</blockquote>
+<p>可以先访问这里：<a href="http://zhanzhang.baidu.com/linksubmit" target="_blank" rel="external">http://zhanzhang.baidu.com/linksubmit</a>。</p>
+<p>（注意：在这之前还需要验证网站什么的，这里不多说。）</p>
+<p>接着截个图如下：</p>
+<p><img src="/images/baidu_sitemap.png" alt="百度网站地图"></p>
+<blockquote>
+<ul>
+<li>对于谷歌，方法如下：</li>
+</ul>
+</blockquote>
+<p>可以先访问这里：<a href="https://www.google.com/webmasters/tools/home" target="_blank" rel="external">https://www.google.com/webmasters/tools/home</a>。</p>
+<p>（注意：跟前面百度一样，也是要先验证网站。）</p>
+<p>接着截个图如下：</p>
+<p><img src="/images/google_sitemap.png" alt="谷歌网站地图"></p>
+<h3 id="特别提醒：">特别提醒：</h3><p>提交网站地图前，都是要进行验证的，验证方法有几个，<strong>不提倡</strong>通过<code>robots.txt</code>文件验证的，请注意<code>robots.txt</code>文件是给搜索引擎表明哪些可以爬哪些不可以的。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="网站地图是什么？">网站地图是什么？</h3><p>网站地图又叫<code>站点地图</code>，简单说我们制作好后就是一个文件，里面放了需要搜索引擎抓取的链接，一般放在跟目录下，供<code>搜索引擎蜘蛛</code>访问，这样能够方便搜索引擎蜘蛛抓取页面。</p>
+<h3 id="为什么要做网站地图？">为什么要做网站地图？</h3><blockquote>
+<ul>
+<li>避免搜索引擎遇到<code>死链接</code>而没有往下层爬的情况，提高页面搜录量。</li>
+<li>可以提供给用户看，方便浏览网站。</li>
+<li>网站地图是指向其他页面的链接，给页面增加导入链接，从而提高页面权重，从而提高页面搜录率。</li>
+</ul>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="百度，谷歌" scheme="http://kuwoku.com/tags/%E7%99%BE%E5%BA%A6%EF%BC%8C%E8%B0%B7%E6%AD%8C/"/>
+    
+      <category term="网站地图" scheme="http://kuwoku.com/tags/%E7%BD%91%E7%AB%99%E5%9C%B0%E5%9B%BE/"/>
+    
+      <category term="Hexo" scheme="http://kuwoku.com/categories/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[我对互联网的一点感悟]]></title>
@@ -689,26 +757,6 @@
       <category term="概念" scheme="http://kuwoku.com/tags/%E6%A6%82%E5%BF%B5/"/>
     
       <category term="概念" scheme="http://kuwoku.com/categories/%E6%A6%82%E5%BF%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[关于吉他和弦]]></title>
-    <link href="http://kuwoku.com/2015/12/20/%E5%85%B3%E4%BA%8E%E5%90%89%E4%BB%96%E5%92%8C%E5%BC%A6/"/>
-    <id>http://kuwoku.com/2015/12/20/关于吉他和弦/</id>
-    <published>2015-12-20T03:26:23.000Z</published>
-    <updated>2015-12-20T03:30:34.000Z</updated>
-    <content type="html"><![CDATA[<p>以下是关于吉他和弦的一些整理： </p>
-<a id="more"></a>
-<h3 id="吉他和弦详细图解"><a href="http://www.17jita.com/hexian/" target="_blank" rel="external">吉他和弦详细图解</a></h3><h3 id="吉他各调式音的位置图解"><a href="http://www.17jita.com/blog/5959.html" target="_blank" rel="external">吉他各调式音的位置图解</a></h3>]]></content>
-    <summary type="html">
-    <![CDATA[<p>以下是关于吉他和弦的一些整理： </p>]]>
-    
-    </summary>
-    
-      <category term="吉他" scheme="http://kuwoku.com/tags/%E5%90%89%E4%BB%96/"/>
-    
-      <category term="吉他" scheme="http://kuwoku.com/categories/%E5%90%89%E4%BB%96/"/>
     
   </entry>
   
