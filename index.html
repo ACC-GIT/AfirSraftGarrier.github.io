@@ -403,6 +403,15 @@
 
     
     
+      
+      
+        
+        
+        
+      
+
+      
+    
 
     
       
@@ -426,8 +435,8 @@
             
               
                 
-                <a class="post-title-link" href="/2015/12/29/Hexo怎么制作和发布百度和谷歌的网站地图/" itemprop="url">
-                  Hexo怎么制作和发布百度和谷歌的网站地图
+                <a class="post-title-link" href="/2015/12/29/Hexo之多说访客记录实现/" itemprop="url">
+                  Hexo之多说访客记录实现
                 </a>
               
             
@@ -437,7 +446,7 @@
         <div class="post-meta">
           <span class="post-time">
             发表于
-            <time itemprop="dateCreated" datetime="2015-12-29T12:41:55+08:00" content="2015-12-29">
+            <time itemprop="dateCreated" datetime="2015-12-29T16:20:28+08:00" content="2015-12-29">
               2015-12-29
             </time>
           </span>
@@ -463,8 +472,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/12/29/Hexo怎么制作和发布百度和谷歌的网站地图/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/29/Hexo怎么制作和发布百度和谷歌的网站地图/" itemprop="commentsCount"></span>
+                <a href="/2015/12/29/Hexo之多说访客记录实现/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/29/Hexo之多说访客记录实现/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -473,7 +482,7 @@
           
 
           
-      	    <span id="/2015/12/29/Hexo怎么制作和发布百度和谷歌的网站地图/"class="leancloud_visitors"  data-flag-title="Hexo怎么制作和发布百度和谷歌的网站地图">
+      	    <span id="/2015/12/29/Hexo之多说访客记录实现/"class="leancloud_visitors"  data-flag-title="Hexo之多说访客记录实现">
               |   阅读次数
             </span>
           
@@ -489,25 +498,85 @@
 
       
         
-          <h3 id="网站地图是什么？">网站地图是什么？</h3><p>网站地图又叫<code>站点地图</code>，简单说我们制作好后就是一个文件，里面放了需要搜索引擎抓取的链接，一般放在跟目录下，供<code>搜索引擎蜘蛛</code>访问，这样能够方便搜索引擎蜘蛛抓取页面。</p>
-<h3 id="为什么要做网站地图？">为什么要做网站地图？</h3><blockquote>
+          <span itemprop="articleBody">
+            
+              <h3 id="访客记录（最近访客）实现方法：">访客记录（最近访客）实现方法：</h3><p>在你想要加入访客记录的页面加上如下代码</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ds-recent-visitors"</span> <span class="attribute">data-num-items</span>=<span class="value">"28"</span> <span class="attribute">data-avatar-size</span>=<span class="value">"42"</span> <span class="attribute">id</span>=<span class="value">"ds-recent-visitors"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>我想各参数意思各位可以猜得到就不说了，然后接着在多说后台添加设置：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="id">#ds-recent-visitors</span> <span class="class">.ds-avatar</span> <span class="rules">&#123;<span class="rule"><span class="attribute">float</span>:<span class="value">left</span></span></span>&#125;</span><br></pre></td></tr></table></figure>
+<p>然后在多说后台里寻找<code>#ds-reset .ds-avatar img</code>这一项，在它后面紧跟添加上<code>, #ds-recent-visitors .ds-avatar img</code>(注意有<code>,</code>分隔)，意思是两者样式一样。</p>
+<p>一般Hexo都集成了多说，所以相关JS代码应该有了，不用再加</p>
+<h3 id="官方参考">官方参考</h3><p><a href="http://dev.duoshuo.com/docs/4ff28d6f552860f21f00000c" target="_blank" rel="external">多说最近访客官方参考</a></p>
+<h3 id="本站参考">本站参考</h3><blockquote>
 <ul>
-<li>避免搜索引擎遇到<code>死链接</code>而没有往下层爬的情况，提高页面搜录量。</li>
-<li>可以提供给用户看，方便浏览网站。</li>
-<li>网站地图是指向其他页面的链接，给页面增加导入链接，从而提高页面权重，从而提高页面搜录率。</li>
+<li>关于本站CSS样式设置即设置方法请参考这里</li>
 </ul>
 </blockquote>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/29/Hexo怎么制作和发布百度和谷歌的网站地图/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+<p><a href="/2015/12/28/本站多说评论的CSS设置/">本站多说评论的CSS设置</a></p>
+<blockquote>
+<ul>
+<li>关于本站的最近访客实际效果请看：</li>
+</ul>
+</blockquote>
+<p><a href="/about/">本站最近访客实际效果</a></p>
+
+            
+          </span>
         
       
     </div>
+    <div id="end-share">
+      <div id="eof" class="print-invisible">
+          <hr class="eof">
+      </div>
+      <style type="text/css">
+          hr.eof {
+            text-align: center;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin: 40px 0px 10px 0;
+          }
+          hr.eof:after {
+            content: '酷我酷';
+            display: inline-block;
+            position: relative;
+            top: -13px;
+            padding: 0 10px;
+            background: #fff;
+            color: #8c8b8b;
+          }
+      </style>
+      <div id="wechat-pp" align="center">
+          <!-- <div id="wechat-pp" class="print-invisible" align="center"> -->
+          <p>哎呦，不错哦，这篇文章有意思~</p>
+          <div align="center" style="float:left;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/CFP2Uen.jpg" title="微信扫一扫，获取『酷我酷』最新文章推送" class="fancybox" rel="article0"><img alt="微信扫一扫，获取『酷我酷』最新文章推送" class="" style="border-width:0" src="//i.imgur.com/CFP2Uen.jpg"></a><span class="caption">微信扫一扫，获取『酷我酷』最新文章推送</span></div>
+              <!-- <span>微信扫一扫，获取『酷我酷』最新文章推送</span> -->
+          </div>
+
+          <div align="center" style="float:right;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/sbiFWU3.png" title="微信扫一扫，请博主喝杯咖啡" class="fancybox" rel="article0"><img alt="微信扫一扫，请博主喝杯咖啡" class="" style="border-width:0" src="//i.imgur.com/sbiFWU3.png"></a><span class="caption">微信扫一扫，请博主喝杯咖啡</span></div>
+              <!-- <span>微信扫一扫，请博主喝杯咖啡</span> -->
+          </div>
+          <style type="text/css">
+            #wechat-pp p {
+              /*line-height: 1.5em;*/
+              margin: 1.5em 0;
+            }
+
+            #posts .post-tags a {
+                padding-top: 50px;
+            }
+          </style>
+      </div>
+</div>
 
     <footer class="post-footer">
-      
+        
 
       
 
@@ -613,9 +682,58 @@
         
       
     </div>
+    <div id="end-share">
+      <div id="eof" class="print-invisible">
+          <hr class="eof">
+      </div>
+      <style type="text/css">
+          hr.eof {
+            text-align: center;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin: 40px 0px 10px 0;
+          }
+          hr.eof:after {
+            content: '酷我酷';
+            display: inline-block;
+            position: relative;
+            top: -13px;
+            padding: 0 10px;
+            background: #fff;
+            color: #8c8b8b;
+          }
+      </style>
+      <div id="wechat-pp" align="center">
+          <!-- <div id="wechat-pp" class="print-invisible" align="center"> -->
+          <p>哎呦，不错哦，这篇文章有意思~</p>
+          <div align="center" style="float:left;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/CFP2Uen.jpg" title="微信扫一扫，获取『酷我酷』最新文章推送" class="fancybox" rel="article0"><img alt="微信扫一扫，获取『酷我酷』最新文章推送" class="" style="border-width:0" src="//i.imgur.com/CFP2Uen.jpg"></a><span class="caption">微信扫一扫，获取『酷我酷』最新文章推送</span></div>
+              <!-- <span>微信扫一扫，获取『酷我酷』最新文章推送</span> -->
+          </div>
+
+          <div align="center" style="float:right;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/sbiFWU3.png" title="微信扫一扫，请博主喝杯咖啡" class="fancybox" rel="article0"><img alt="微信扫一扫，请博主喝杯咖啡" class="" style="border-width:0" src="//i.imgur.com/sbiFWU3.png"></a><span class="caption">微信扫一扫，请博主喝杯咖啡</span></div>
+              <!-- <span>微信扫一扫，请博主喝杯咖啡</span> -->
+          </div>
+          <style type="text/css">
+            #wechat-pp p {
+              /*line-height: 1.5em;*/
+              margin: 1.5em 0;
+            }
+
+            #posts .post-tags a {
+                padding-top: 50px;
+            }
+          </style>
+      </div>
+</div>
 
     <footer class="post-footer">
-      
+        
 
       
 
@@ -721,9 +839,58 @@
         
       
     </div>
+    <div id="end-share">
+      <div id="eof" class="print-invisible">
+          <hr class="eof">
+      </div>
+      <style type="text/css">
+          hr.eof {
+            text-align: center;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin: 40px 0px 10px 0;
+          }
+          hr.eof:after {
+            content: '酷我酷';
+            display: inline-block;
+            position: relative;
+            top: -13px;
+            padding: 0 10px;
+            background: #fff;
+            color: #8c8b8b;
+          }
+      </style>
+      <div id="wechat-pp" align="center">
+          <!-- <div id="wechat-pp" class="print-invisible" align="center"> -->
+          <p>哎呦，不错哦，这篇文章有意思~</p>
+          <div align="center" style="float:left;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/CFP2Uen.jpg" title="微信扫一扫，获取『酷我酷』最新文章推送" class="fancybox" rel="article0"><img alt="微信扫一扫，获取『酷我酷』最新文章推送" class="" style="border-width:0" src="//i.imgur.com/CFP2Uen.jpg"></a><span class="caption">微信扫一扫，获取『酷我酷』最新文章推送</span></div>
+              <!-- <span>微信扫一扫，获取『酷我酷』最新文章推送</span> -->
+          </div>
+
+          <div align="center" style="float:right;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/sbiFWU3.png" title="微信扫一扫，请博主喝杯咖啡" class="fancybox" rel="article0"><img alt="微信扫一扫，请博主喝杯咖啡" class="" style="border-width:0" src="//i.imgur.com/sbiFWU3.png"></a><span class="caption">微信扫一扫，请博主喝杯咖啡</span></div>
+              <!-- <span>微信扫一扫，请博主喝杯咖啡</span> -->
+          </div>
+          <style type="text/css">
+            #wechat-pp p {
+              /*line-height: 1.5em;*/
+              margin: 1.5em 0;
+            }
+
+            #posts .post-tags a {
+                padding-top: 50px;
+            }
+          </style>
+      </div>
+</div>
 
     <footer class="post-footer">
-      
+        
 
       
 
@@ -829,9 +996,58 @@
         
       
     </div>
+    <div id="end-share">
+      <div id="eof" class="print-invisible">
+          <hr class="eof">
+      </div>
+      <style type="text/css">
+          hr.eof {
+            text-align: center;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin: 40px 0px 10px 0;
+          }
+          hr.eof:after {
+            content: '酷我酷';
+            display: inline-block;
+            position: relative;
+            top: -13px;
+            padding: 0 10px;
+            background: #fff;
+            color: #8c8b8b;
+          }
+      </style>
+      <div id="wechat-pp" align="center">
+          <!-- <div id="wechat-pp" class="print-invisible" align="center"> -->
+          <p>哎呦，不错哦，这篇文章有意思~</p>
+          <div align="center" style="float:left;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/CFP2Uen.jpg" title="微信扫一扫，获取『酷我酷』最新文章推送" class="fancybox" rel="article0"><img alt="微信扫一扫，获取『酷我酷』最新文章推送" class="" style="border-width:0" src="//i.imgur.com/CFP2Uen.jpg"></a><span class="caption">微信扫一扫，获取『酷我酷』最新文章推送</span></div>
+              <!-- <span>微信扫一扫，获取『酷我酷』最新文章推送</span> -->
+          </div>
+
+          <div align="center" style="float:right;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/sbiFWU3.png" title="微信扫一扫，请博主喝杯咖啡" class="fancybox" rel="article0"><img alt="微信扫一扫，请博主喝杯咖啡" class="" style="border-width:0" src="//i.imgur.com/sbiFWU3.png"></a><span class="caption">微信扫一扫，请博主喝杯咖啡</span></div>
+              <!-- <span>微信扫一扫，请博主喝杯咖啡</span> -->
+          </div>
+          <style type="text/css">
+            #wechat-pp p {
+              /*line-height: 1.5em;*/
+              margin: 1.5em 0;
+            }
+
+            #posts .post-tags a {
+                padding-top: 50px;
+            }
+          </style>
+      </div>
+</div>
 
     <footer class="post-footer">
-      
+        
 
       
 
@@ -921,9 +1137,58 @@
         
       
     </div>
+    <div id="end-share">
+      <div id="eof" class="print-invisible">
+          <hr class="eof">
+      </div>
+      <style type="text/css">
+          hr.eof {
+            text-align: center;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin: 40px 0px 10px 0;
+          }
+          hr.eof:after {
+            content: '酷我酷';
+            display: inline-block;
+            position: relative;
+            top: -13px;
+            padding: 0 10px;
+            background: #fff;
+            color: #8c8b8b;
+          }
+      </style>
+      <div id="wechat-pp" align="center">
+          <!-- <div id="wechat-pp" class="print-invisible" align="center"> -->
+          <p>哎呦，不错哦，这篇文章有意思~</p>
+          <div align="center" style="float:left;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/CFP2Uen.jpg" title="微信扫一扫，获取『酷我酷』最新文章推送" class="fancybox" rel="article0"><img alt="微信扫一扫，获取『酷我酷』最新文章推送" class="" style="border-width:0" src="//i.imgur.com/CFP2Uen.jpg"></a><span class="caption">微信扫一扫，获取『酷我酷』最新文章推送</span></div>
+              <!-- <span>微信扫一扫，获取『酷我酷』最新文章推送</span> -->
+          </div>
+
+          <div align="center" style="float:right;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/sbiFWU3.png" title="微信扫一扫，请博主喝杯咖啡" class="fancybox" rel="article0"><img alt="微信扫一扫，请博主喝杯咖啡" class="" style="border-width:0" src="//i.imgur.com/sbiFWU3.png"></a><span class="caption">微信扫一扫，请博主喝杯咖啡</span></div>
+              <!-- <span>微信扫一扫，请博主喝杯咖啡</span> -->
+          </div>
+          <style type="text/css">
+            #wechat-pp p {
+              /*line-height: 1.5em;*/
+              margin: 1.5em 0;
+            }
+
+            #posts .post-tags a {
+                padding-top: 50px;
+            }
+          </style>
+      </div>
+</div>
 
     <footer class="post-footer">
-      
+        
 
       
 
@@ -1013,9 +1278,58 @@
         
       
     </div>
+    <div id="end-share">
+      <div id="eof" class="print-invisible">
+          <hr class="eof">
+      </div>
+      <style type="text/css">
+          hr.eof {
+            text-align: center;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin: 40px 0px 10px 0;
+          }
+          hr.eof:after {
+            content: '酷我酷';
+            display: inline-block;
+            position: relative;
+            top: -13px;
+            padding: 0 10px;
+            background: #fff;
+            color: #8c8b8b;
+          }
+      </style>
+      <div id="wechat-pp" align="center">
+          <!-- <div id="wechat-pp" class="print-invisible" align="center"> -->
+          <p>哎呦，不错哦，这篇文章有意思~</p>
+          <div align="center" style="float:left;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/CFP2Uen.jpg" title="微信扫一扫，获取『酷我酷』最新文章推送" class="fancybox" rel="article0"><img alt="微信扫一扫，获取『酷我酷』最新文章推送" class="" style="border-width:0" src="//i.imgur.com/CFP2Uen.jpg"></a><span class="caption">微信扫一扫，获取『酷我酷』最新文章推送</span></div>
+              <!-- <span>微信扫一扫，获取『酷我酷』最新文章推送</span> -->
+          </div>
+
+          <div align="center" style="float:right;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/sbiFWU3.png" title="微信扫一扫，请博主喝杯咖啡" class="fancybox" rel="article0"><img alt="微信扫一扫，请博主喝杯咖啡" class="" style="border-width:0" src="//i.imgur.com/sbiFWU3.png"></a><span class="caption">微信扫一扫，请博主喝杯咖啡</span></div>
+              <!-- <span>微信扫一扫，请博主喝杯咖啡</span> -->
+          </div>
+          <style type="text/css">
+            #wechat-pp p {
+              /*line-height: 1.5em;*/
+              margin: 1.5em 0;
+            }
+
+            #posts .post-tags a {
+                padding-top: 50px;
+            }
+          </style>
+      </div>
+</div>
 
     <footer class="post-footer">
-      
+        
 
       
 
@@ -1105,9 +1419,58 @@
         
       
     </div>
+    <div id="end-share">
+      <div id="eof" class="print-invisible">
+          <hr class="eof">
+      </div>
+      <style type="text/css">
+          hr.eof {
+            text-align: center;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin: 40px 0px 10px 0;
+          }
+          hr.eof:after {
+            content: '酷我酷';
+            display: inline-block;
+            position: relative;
+            top: -13px;
+            padding: 0 10px;
+            background: #fff;
+            color: #8c8b8b;
+          }
+      </style>
+      <div id="wechat-pp" align="center">
+          <!-- <div id="wechat-pp" class="print-invisible" align="center"> -->
+          <p>哎呦，不错哦，这篇文章有意思~</p>
+          <div align="center" style="float:left;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/CFP2Uen.jpg" title="微信扫一扫，获取『酷我酷』最新文章推送" class="fancybox" rel="article0"><img alt="微信扫一扫，获取『酷我酷』最新文章推送" class="" style="border-width:0" src="//i.imgur.com/CFP2Uen.jpg"></a><span class="caption">微信扫一扫，获取『酷我酷』最新文章推送</span></div>
+              <!-- <span>微信扫一扫，获取『酷我酷』最新文章推送</span> -->
+          </div>
+
+          <div align="center" style="float:right;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/sbiFWU3.png" title="微信扫一扫，请博主喝杯咖啡" class="fancybox" rel="article0"><img alt="微信扫一扫，请博主喝杯咖啡" class="" style="border-width:0" src="//i.imgur.com/sbiFWU3.png"></a><span class="caption">微信扫一扫，请博主喝杯咖啡</span></div>
+              <!-- <span>微信扫一扫，请博主喝杯咖啡</span> -->
+          </div>
+          <style type="text/css">
+            #wechat-pp p {
+              /*line-height: 1.5em;*/
+              margin: 1.5em 0;
+            }
+
+            #posts .post-tags a {
+                padding-top: 50px;
+            }
+          </style>
+      </div>
+</div>
 
     <footer class="post-footer">
-      
+        
 
       
 
@@ -1197,9 +1560,58 @@
         
       
     </div>
+    <div id="end-share">
+      <div id="eof" class="print-invisible">
+          <hr class="eof">
+      </div>
+      <style type="text/css">
+          hr.eof {
+            text-align: center;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin: 40px 0px 10px 0;
+          }
+          hr.eof:after {
+            content: '酷我酷';
+            display: inline-block;
+            position: relative;
+            top: -13px;
+            padding: 0 10px;
+            background: #fff;
+            color: #8c8b8b;
+          }
+      </style>
+      <div id="wechat-pp" align="center">
+          <!-- <div id="wechat-pp" class="print-invisible" align="center"> -->
+          <p>哎呦，不错哦，这篇文章有意思~</p>
+          <div align="center" style="float:left;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/CFP2Uen.jpg" title="微信扫一扫，获取『酷我酷』最新文章推送" class="fancybox" rel="article0"><img alt="微信扫一扫，获取『酷我酷』最新文章推送" class="" style="border-width:0" src="//i.imgur.com/CFP2Uen.jpg"></a><span class="caption">微信扫一扫，获取『酷我酷』最新文章推送</span></div>
+              <!-- <span>微信扫一扫，获取『酷我酷』最新文章推送</span> -->
+          </div>
+
+          <div align="center" style="float:right;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/sbiFWU3.png" title="微信扫一扫，请博主喝杯咖啡" class="fancybox" rel="article0"><img alt="微信扫一扫，请博主喝杯咖啡" class="" style="border-width:0" src="//i.imgur.com/sbiFWU3.png"></a><span class="caption">微信扫一扫，请博主喝杯咖啡</span></div>
+              <!-- <span>微信扫一扫，请博主喝杯咖啡</span> -->
+          </div>
+          <style type="text/css">
+            #wechat-pp p {
+              /*line-height: 1.5em;*/
+              margin: 1.5em 0;
+            }
+
+            #posts .post-tags a {
+                padding-top: 50px;
+            }
+          </style>
+      </div>
+</div>
 
     <footer class="post-footer">
-      
+        
 
       
 
@@ -1322,124 +1734,58 @@
         
       
     </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/12/23/创业指导书/" itemprop="url">
-                  创业指导书
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-12-23T18:18:47+08:00" content="2015-12-23">
-              2015-12-23
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp; 分类于
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/创业/" itemprop="url" rel="index">
-                    <span itemprop="name">创业</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/23/创业指导书/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/23/创业指导书/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-      	    <span id="/2015/12/23/创业指导书/"class="leancloud_visitors"  data-flag-title="创业指导书">
-              |   阅读次数
-            </span>
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h3 id="引文">引文</h3><p>现在大家都讲创业，其实生活中创业无处不在，即使在公司里也有内部创业。创业的一些理念应该是人人都需要有的。下面这篇文章是硅谷著名的创业孵化器多年的经验总结，详细分析了创业中一些需要注意的几大模块：<strong>点子、团队、产品、执行</strong>。</p>
-<h3 id="前言">前言</h3><p>我们常给很多创业者提建议，虽然这样一对一的建议很重要，但我们觉得如果能够从中抽取共性提供给创业者，将会很有意义，下面把这些共性告诉大家。</p>
-<p><strong>创业公司的目标是要做出用户<code>热爱</code>的产品</strong>，做到用户热爱了接着考虑如何获得更多用户。但做到用户热爱这点非常关键，想想那些伟大的公司就知道了，他们都是从一个好的产品起家的，这个产品的第一批用户非常热爱这个产品，以致会告诉他们的朋友。如果用户不热爱你的产品，那么你将会失败。就算你欺骗自己，固执认为用户热爱你的产品，最终还是会失败，好多这样的创业公司就是这样失败的。</p>
-<p>一个推荐的做法是，第一步<strong>要使产品能被一小部分的人<code>热爱</code>，而不是让一大群人<code>喜爱</code></strong>（注意，相比要获得一小部分人热爱，获的一大批用户喜爱更容易）。</p>
-<p>提醒一下准备选择创业的人：大多数创业远比你想象的要艰苦，因为你无法确切估算出该创业所需要的工作和工作强度。一个比较明智的做法是加入一家已经步入上升轨道的早期的创业公司。</p>
-<p>但是，<strong>创业实际上没有对你的事业造成风险</strong>，如果你真的在技术方面擅长，失败了也有大把的工作机会。大多数人并不擅长风险评估。<strong>在我看来，如果你有了一个比较热衷的点子和项目后还在那做着稳定、简单、没有成就感的工作的话，风险比去创业还要大</strong>。</p>
-<p>想要创业成功，你需要：<strong>一个好的点子（有足够大的市场），一个好的团队，一个好的产品，还有一个好的执行力。</strong></p>
-<p><img src="/images/cy_idea.png" alt="好的点子"></p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/12/23/创业指导书/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+    <div id="end-share">
+      <div id="eof" class="print-invisible">
+          <hr class="eof">
+      </div>
+      <style type="text/css">
+          hr.eof {
+            text-align: center;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin: 40px 0px 10px 0;
+          }
+          hr.eof:after {
+            content: '酷我酷';
+            display: inline-block;
+            position: relative;
+            top: -13px;
+            padding: 0 10px;
+            background: #fff;
+            color: #8c8b8b;
+          }
+      </style>
+      <div id="wechat-pp" align="center">
+          <!-- <div id="wechat-pp" class="print-invisible" align="center"> -->
+          <p>哎呦，不错哦，这篇文章有意思~</p>
+          <div align="center" style="float:left;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/CFP2Uen.jpg" title="微信扫一扫，获取『酷我酷』最新文章推送" class="fancybox" rel="article0"><img alt="微信扫一扫，获取『酷我酷』最新文章推送" class="" style="border-width:0" src="//i.imgur.com/CFP2Uen.jpg"></a><span class="caption">微信扫一扫，获取『酷我酷』最新文章推送</span></div>
+              <!-- <span>微信扫一扫，获取『酷我酷』最新文章推送</span> -->
           </div>
-        
-      
-    </div>
+
+          <div align="center" style="float:right;display:inline;width: 48%;">
+              <div><a href="http://i.imgur.com/sbiFWU3.png" title="微信扫一扫，请博主喝杯咖啡" class="fancybox" rel="article0"><img alt="微信扫一扫，请博主喝杯咖啡" class="" style="border-width:0" src="//i.imgur.com/sbiFWU3.png"></a><span class="caption">微信扫一扫，请博主喝杯咖啡</span></div>
+              <!-- <span>微信扫一扫，请博主喝杯咖啡</span> -->
+          </div>
+          <style type="text/css">
+            #wechat-pp p {
+              /*line-height: 1.5em;*/
+              margin: 1.5em 0;
+            }
+
+            #posts .post-tags a {
+                padding-top: 50px;
+            }
+          </style>
+      </div>
+</div>
 
     <footer class="post-footer">
-      
+        
 
       
 
@@ -1463,7 +1809,6 @@
 
 
         </div>
-
         
 
         
@@ -1498,7 +1843,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">33</span>
+              <span class="site-state-item-count">34</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1512,7 +1857,7 @@
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">32</span>
+              <span class="site-state-item-count">34</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
