@@ -54,24 +54,24 @@
 
 
 <meta name="description" content="访客记录（最近访客）实现方法：在你想要加入访客记录的页面加上如下代码
-1&amp;lt;div class=&quot;ds-recent-visitors&quot; data-num-items=&quot;28&quot; data-avatar-size=&quot;42&quot; id=&quot;ds-recent-visitors&quot;&amp;gt;&amp;lt;/div&amp;gt;
+12&amp;lt;div class=&quot;ds-recent-visitors&quot; data-num-items=&quot;28&quot;     data-avatar-size=&quot;42&quot; id=&quot;ds-recent-visitors&quot;/&amp;gt;
 我想各参数意思各位可以猜得到就不说了，然后接着在多说后台添加设置：
-1#ds-recent-v">
+1#ds-recent-visitor">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo之多说访客记录实现">
 <meta property="og:url" content="http://kuwoku.com/2015/12/29/Hexo之多说访客记录实现/index.html">
 <meta property="og:site_name" content="酷我酷">
 <meta property="og:description" content="访客记录（最近访客）实现方法：在你想要加入访客记录的页面加上如下代码
-1&amp;lt;div class=&quot;ds-recent-visitors&quot; data-num-items=&quot;28&quot; data-avatar-size=&quot;42&quot; id=&quot;ds-recent-visitors&quot;&amp;gt;&amp;lt;/div&amp;gt;
+12&amp;lt;div class=&quot;ds-recent-visitors&quot; data-num-items=&quot;28&quot;     data-avatar-size=&quot;42&quot; id=&quot;ds-recent-visitors&quot;/&amp;gt;
 我想各参数意思各位可以猜得到就不说了，然后接着在多说后台添加设置：
-1#ds-recent-v">
-<meta property="og:updated_time" content="2015-12-29T08:44:47.000Z">
+1#ds-recent-visitor">
+<meta property="og:updated_time" content="2015-12-29T12:21:13.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo之多说访客记录实现">
 <meta name="twitter:description" content="访客记录（最近访客）实现方法：在你想要加入访客记录的页面加上如下代码
-1&amp;lt;div class=&quot;ds-recent-visitors&quot; data-num-items=&quot;28&quot; data-avatar-size=&quot;42&quot; id=&quot;ds-recent-visitors&quot;&amp;gt;&amp;lt;/div&amp;gt;
+12&amp;lt;div class=&quot;ds-recent-visitors&quot; data-num-items=&quot;28&quot;     data-avatar-size=&quot;42&quot; id=&quot;ds-recent-visitors&quot;/&amp;gt;
 我想各参数意思各位可以猜得到就不说了，然后接着在多说后台添加设置：
-1#ds-recent-v">
+1#ds-recent-visitor">
 
 
 
@@ -488,15 +488,16 @@
 
       
         <span itemprop="articleBody"><h3 id="访客记录（最近访客）实现方法：">访客记录（最近访客）实现方法：</h3><p>在你想要加入访客记录的页面加上如下代码</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ds-recent-visitors"</span> <span class="attribute">data-num-items</span>=<span class="value">"28"</span> <span class="attribute">data-avatar-size</span>=<span class="value">"42"</span> <span class="attribute">id</span>=<span class="value">"ds-recent-visitors"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ds-recent-visitors"</span> <span class="attribute">data-num-items</span>=<span class="value">"28"</span></span><br><span class="line">     <span class="attribute">data-avatar-size</span>=<span class="value">"42"</span> <span class="attribute">id</span>=<span class="value">"ds-recent-visitors"</span>/&gt;</span></span><br></pre></td></tr></table></figure>
 <p>我想各参数意思各位可以猜得到就不说了，然后接着在多说后台添加设置：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="id">#ds-recent-visitors</span> <span class="class">.ds-avatar</span> <span class="rules">&#123;<span class="rule"><span class="attribute">float</span>:<span class="value">left</span></span></span>&#125;</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
 <p>然后在多说后台里寻找<code>#ds-reset .ds-avatar img</code>这一项，在它后面紧跟添加上<code>, #ds-recent-visitors .ds-avatar img</code>(注意有<code>,</code>分隔)，意思是两者样式一样。</p>
-<p>一般Hexo都集成了多说，所以相关JS代码应该有了，不用再加</p>
+<p>一般Hexo都集成了多说，所以相关JS代码应该有了，不用再加。</p>
 <h3 id="官方参考">官方参考</h3><p><a href="http://dev.duoshuo.com/docs/4ff28d6f552860f21f00000c" target="_blank" rel="external">多说最近访客官方参考</a></p>
 <h3 id="本站参考">本站参考</h3><blockquote>
 <ul>
-<li>关于本站CSS样式设置即设置方法请参考这里</li>
+<li>关于本站CSS样式设置即设置方法请参考这里：</li>
 </ul>
 </blockquote>
 <p><a href="/2015/12/28/本站多说评论的CSS设置/">本站多说评论的CSS设置</a></p>
@@ -771,7 +772,11 @@
             
           
         </div>
-
+        <div class="cc-license motion-element" itemprop="license" style="opacity: 1; display: block; transform: translateX(0px);">
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank" rel="external nofollow">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons">
+            </a>
+        </div>
       </section>
 
       
