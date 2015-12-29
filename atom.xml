@@ -4,7 +4,7 @@
   <subtitle><![CDATA[给世界酷出我的酷]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://kuwoku.com/"/>
-  <updated>2015-12-28T15:00:46.000Z</updated>
+  <updated>2015-12-29T03:58:42.000Z</updated>
   <id>http://kuwoku.com/</id>
   
   <author>
@@ -13,6 +13,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[我对互联网的一点感悟]]></title>
+    <link href="http://kuwoku.com/2015/12/29/%E6%88%91%E5%AF%B9%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E4%B8%80%E7%82%B9%E6%84%9F%E6%82%9F/"/>
+    <id>http://kuwoku.com/2015/12/29/我对互联网的一点感悟/</id>
+    <published>2015-12-29T03:40:01.000Z</published>
+    <updated>2015-12-29T03:58:42.000Z</updated>
+    <content type="html"><![CDATA[<p>以下是对互联网的一点个人感悟：</p>
+<a id="more"></a>
+<h3 id="各领域互联">各领域互联</h3><p>互联网把各个领域连接了起来，各种不同领域的知识、信息往往融合在一起。互联网模糊了这些领域的界限，形成了一些共性，如<code>互联网思维</code>。</p>
+<h3 id="人与人互联">人与人互联</h3><p>互联网将人与人连接了起来，这点也影响到了人与人之间现实的关系。互联网人间可能都不认识，只有一个<code>ID</code>。</p>
+<h3 id="机器间互联">机器间互联</h3><p>各种设备，如Android、IOS、Window、Mac、还有数不尽的其他终端都通过互联网连接了起来，设备间界线变得模糊。</p>
+<h3 id="互联网提倡分享">互联网提倡分享</h3><p>互联网非常提倡分享，可以说<code>得分享者得天下</code>。如果某个人给别人分享得越多，共享量很大，那他将会获得很多粉丝，只有那些不追求表面利益，真正为别人分享贡献的人才能在互联网上获得真正成功。</p>
+<h3 id="互联网给草根奋起提供了机会">互联网给草根奋起提供了机会</h3><p>互联网降低了门槛，获取知识和工具很容易，各种渠道也丰富，现在很多<code>草根创业</code>就是这样，许多无畏的年轻人，能通过互联网能快速奠定自己的位置。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>以下是对互联网的一点个人感悟：</p>]]>
+    
+    </summary>
+    
+      <category term="互联网" scheme="http://kuwoku.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+      <category term="感悟" scheme="http://kuwoku.com/categories/%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[坑爹CDN给在线测试带来的问题]]></title>
@@ -684,25 +709,6 @@
       <category term="吉他" scheme="http://kuwoku.com/tags/%E5%90%89%E4%BB%96/"/>
     
       <category term="吉他" scheme="http://kuwoku.com/categories/%E5%90%89%E4%BB%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[VFS]]></title>
-    <link href="http://kuwoku.com/2015/12/15/VFS/"/>
-    <id>http://kuwoku.com/2015/12/15/VFS/</id>
-    <published>2015-12-14T22:08:13.000Z</published>
-    <updated>2015-12-14T22:23:11.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="VFS是什么">VFS是什么</h3><p>VFS（virtual File System），中文意思就是虚拟文件系统<br>虚拟文件系统（VFS）是物理文件系统与服务之间的一个接口层，它对Linux的每个文件系统的所有细节进行抽象</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h3 id="VFS是什么">VFS是什么</h3><p>VFS（virtual File System），中文意思就是虚拟文件系统<br>虚拟文件系统（VFS）是物理文件系统与服务之间的一个接口层，它对Linux的每个文件系统的所有细节进行抽象</p>
-]]>
-    </summary>
-    
-      <category term="VFS" scheme="http://kuwoku.com/tags/VFS/"/>
-    
-      <category term="Linux" scheme="http://kuwoku.com/categories/Linux/"/>
     
   </entry>
   
