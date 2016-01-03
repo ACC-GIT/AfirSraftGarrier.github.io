@@ -965,7 +965,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffec71;
+  background: #cff5ff;
 }
 .sidebar-nav {
   margin: 0 0 20px;
@@ -1888,11 +1888,8 @@ body {
 .wumii-footer {
   display: none;
 }
-#ujian-side div:first-child div:last-child div:only-child div:last-child {
+#ujian-side div:first-child div:last-child div:last-child a {
   display: none !important;
-}
-.wumii-popup-relatedItems {
-  margin: 0px 0px 150px 0px !important;
 }
 .use-motion .post {
   opacity: 0;
