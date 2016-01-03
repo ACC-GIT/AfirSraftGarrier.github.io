@@ -965,7 +965,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8f95db;
+  background: #b5ff6e;
 }
 .sidebar-nav {
   margin: 0 0 20px;
@@ -1890,6 +1890,10 @@ body {
 }
 #ujian-side div:first-child div:last-child div:only-child div:last-child a {
   display: none !important;
+}
+.wumii-image-row {
+  background-color: #7aff21;
+  padding: 0 10px !important;
 }
 .use-motion .post {
   opacity: 0;
