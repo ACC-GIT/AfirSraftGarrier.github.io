@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://www.kuwoku.com/2016/01/05/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E5%90%89%E4%BB%96%E8%A7%86%E9%A2%91/</loc>
+    <lastmod>2016-01-05T07:48:25.000Z</lastmod>
+    <data>
+        <display>
+        <title>分享一个吉他视频</title>
+        <pubTime>2016-01-04T17:24:00.000Z</pubTime>
+        
+        <tag>吉他</tag>
+         
+         
+           
+             
+              <breadCrumb title="视频" url="http://www.kuwoku.com/categories/%E8%A7%86%E9%A2%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.kuwoku.com/2015/12/28/%E6%9C%AC%E7%AB%99%E5%A4%9A%E8%AF%B4%E8%AF%84%E8%AE%BA%E7%9A%84CSS%E8%AE%BE%E7%BD%AE/</loc>
     <lastmod>2016-01-05T07:46:02.000Z</lastmod>
     <data>
@@ -207,26 +227,6 @@
            
              
               <breadCrumb title="读书笔记" url="http://www.kuwoku.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.kuwoku.com/2016/01/05/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%AA%E5%90%89%E4%BB%96%E8%A7%86%E9%A2%91/</loc>
-    <lastmod>2016-01-04T17:29:35.000Z</lastmod>
-    <data>
-        <display>
-        <title>分享一个吉他视频</title>
-        <pubTime>2016-01-04T17:24:00.000Z</pubTime>
-        
-        <tag>吉他</tag>
-         
-         
-           
-             
-              <breadCrumb title="视频" url="http://www.kuwoku.com/categories/%E8%A7%86%E9%A2%91/"/>
           
         </display>
     </data>
