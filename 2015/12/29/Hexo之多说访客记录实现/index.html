@@ -65,7 +65,7 @@
 12&amp;lt;div class=&quot;ds-recent-visitors&quot; data-num-items=&quot;28&quot;     data-avatar-size=&quot;42&quot; id=&quot;ds-recent-visitors&quot;/&amp;gt;
 我想各参数意思各位可以猜得到就不说了，然后接着在多说后台添加设置：
 1#ds-recent-visitor">
-<meta property="og:updated_time" content="2015-12-29T12:21:13.000Z">
+<meta property="og:updated_time" content="2016-01-05T07:41:06.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo之多说访客记录实现">
 <meta name="twitter:description" content="访客记录（最近访客）实现方法：在你想要加入访客记录的页面加上如下代码
@@ -491,7 +491,6 @@
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ds-recent-visitors"</span> <span class="attribute">data-num-items</span>=<span class="value">"28"</span></span><br><span class="line">     <span class="attribute">data-avatar-size</span>=<span class="value">"42"</span> <span class="attribute">id</span>=<span class="value">"ds-recent-visitors"</span>/&gt;</span></span><br></pre></td></tr></table></figure>
 <p>我想各参数意思各位可以猜得到就不说了，然后接着在多说后台添加设置：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="id">#ds-recent-visitors</span> <span class="class">.ds-avatar</span> <span class="rules">&#123;<span class="rule"><span class="attribute">float</span>:<span class="value">left</span></span></span>&#125;</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
 <p>然后在多说后台里寻找<code>#ds-reset .ds-avatar img</code>这一项，在它后面紧跟添加上<code>, #ds-recent-visitors .ds-avatar img</code>(注意有<code>,</code>分隔)，意思是两者样式一样。</p>
 <p>一般Hexo都集成了多说，所以相关JS代码应该有了，不用再加。</p>
 <h3 id="官方参考">官方参考</h3><p><a href="http://dev.duoshuo.com/docs/4ff28d6f552860f21f00000c" target="_blank" rel="external">多说最近访客官方参考</a></p>
@@ -501,6 +500,7 @@
 </ul>
 </blockquote>
 <p><a href="/2015/12/28/本站多说评论的CSS设置/">本站多说评论的CSS设置</a></p>
+<a id="more"></a>
 <blockquote>
 <ul>
 <li>关于本站的最近访客实际效果请看：</li>
@@ -667,7 +667,7 @@
 </script>
 <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
 <!-- UJian Button BEGIN -->
-<script type="text/javascript" src="http://v1.ujian.cc/code/ujian.js?type=slide&pos=left&btn=8&fade=1&uid=2078224"></script>
+<script type="text/javascript" src="http://v1.ujian.cc/code/ujian.js?type=slide&pos=left&btn=4&fade=1&uid=2078224"></script>
 <!-- UJian Button ENDD -->
 
       
@@ -730,21 +730,21 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">37</span>
+              <span class="site-state-item-count">38</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
             <a href="/categories">
-              <span class="site-state-item-count">26</span>
+              <span class="site-state-item-count">27</span>
               <span class="site-state-item-name">分类</span>
               </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">38</span>
+              <span class="site-state-item-count">39</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
