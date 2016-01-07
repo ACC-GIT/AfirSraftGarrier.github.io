@@ -11,6 +11,10 @@ $(document).ready(function () {
     $('body').velocity('scroll');
   });
 
+  $('.top-to-back').on('click', function () {
+    $('body').animate({scrollTop: $(document).height()}, 'slow');
+  });
+
   $('.site-nav-toggle button').on('click', function () {
     var $siteNav = $('.site-nav');
     var ON_CLASS_NAME = 'site-nav-on';
