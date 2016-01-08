@@ -611,11 +611,6 @@
 <div class="right-to-left" onClick="rightToLeftClick()"></div>
 <script type="text/javascript">
   function leftToRightClick() {
-      var artNextNavi = $('.fa-chevron-left');
-      if(artNextNavi) {
-         artNextNavi.click();
-         return;
-      }
       
          
             $('.fa-home').click();
@@ -624,11 +619,6 @@
   }
 
   function rightToLeftClick() {
-      var artPreNavi = $('.fa-chevron-right');
-      if(artPreNavi) {
-         artPreNavi.click();
-         return;
-      }
       
          
             $('.fa-user').click();
@@ -637,16 +627,14 @@
   }
 
   function preNaviClick() {
-      var preNavi = $('.fa-angle-right');
-      if(preNavi) {
-          preNavi.click();
+      if($('i').hasClass("fa-angle-right")) {
+          $('.fa-angle-right').click();
       }
   }
 
   function nextNaviClick() {
-      var preNavi = $('.fa-angle-left');
-      if(preNavi) {
-          preNavi.click();
+      if($('i').hasClass("fa-angle-left")) {
+          $('.fa-angle-left').click();
       }
   }
 </script>
