@@ -403,6 +403,15 @@
 
     
     
+      
+      
+        
+        
+        
+      
+
+      
+    
 
     
       
@@ -1863,15 +1872,40 @@
 <div class="right-to-left" onClick="rightToLeftClick()"></div>
 <script type="text/javascript">
   function leftToRightClick() {
+      var artNextNavi = $('.fa-chevron-left');
+      if(artNextNavi) {
+         artNextNavi.click();
+         return;
+      }
+      alert("");
       
-        // alert(123);
+        nextNaviClick();
       
   }
 
   function rightToLeftClick() {
+      var artPreNavi = $('.fa-chevron-right');
+      if(artPreNavi) {
+         artPreNavi.click();
+         return;
+      }
       
-        // alert(123);
+        preNaviClick();
       
+  }
+
+  function preNaviClick() {
+      var preNavi = $('.fa-angle-right');
+      if(preNavi) {
+          preNavi.click();
+      }
+  }
+
+  function nextNaviClick() {
+      var preNavi = $('.fa-angle-left');
+      if(preNavi) {
+          preNavi.click();
+      }
   }
 </script>
 
