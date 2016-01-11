@@ -888,9 +888,10 @@ body {
 .site-author-image {
   display: block;
   margin: 0 auto;
-  max-width: 96px;
+  width: 96px;
   height: auto;
   border: 2px solid #333;
+  border-radius: 96px;
   padding: 2px;
 }
 .site-author-name {
@@ -965,7 +966,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d9cc2d;
+  background: #db835d;
 }
 .sidebar-nav {
   margin: 0 0 20px;
